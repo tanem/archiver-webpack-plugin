@@ -1,21 +1,30 @@
 import archiver from 'archiver'
 import fs from 'fs'
+import glob from 'glob'
 import path from 'path'
 import webpack from 'webpack'
 
 class ArchiverWebpackPlugin implements webpack.Plugin {
   destpath: string
   filename?: string
-  glob: string
+  globOptions?: glob.IOptions
+  globPattern: string
 
   constructor({
     destpath = '',
     filename,
-    glob = '**/*'
-  }: { destpath?: string; filename?: string; glob?: string } = {}) {
+    globOptions,
+    globPattern = '**/*'
+  }: {
+    destpath?: string
+    filename?: string
+    globOptions?: glob.IOptions
+    globPattern?: string
+  } = {}) {
     this.destpath = destpath
     this.filename = filename
-    this.glob = glob
+    this.globOptions = globOptions
+    this.globPattern = globPattern
   }
 
   apply(compiler: webpack.Compiler) {
@@ -28,7 +37,11 @@ class ArchiverWebpackPlugin implements webpack.Plugin {
 
       const archive = archiver('zip')
       archive.pipe(output)
-      archive.glob(this.glob, { cwd: outputPath }, { prefix: this.destpath })
+      archive.glob(
+        this.globPattern,
+        { cwd: outputPath, ...this.globOptions },
+        { prefix: this.destpath }
+      )
       archive.finalize()
     })
   }

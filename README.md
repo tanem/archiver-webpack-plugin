@@ -39,7 +39,8 @@ module.exports = {
 - `options` - _Optional_ An object containing the optional arguments defined below. Defaults to `{}`.
   - `destpath` - _Optional_ The destination path within the archive. Defaults to `''`, which means files are output to the root of the archive.
   - `filename` - _Optional_ The name of the zip archive. `'.zip'` is appended to the filename. Defaults to the basename of the webpack output path.
-  - `glob` - _Optional_ The [glob pattern](https://github.com/isaacs/node-glob#glob-primer) that determines what will be included in the archive. Defaults to `'**/*'` which will include all files in the output path.
+  - `globOptions` - _Optional_ The [glob options](https://github.com/isaacs/node-glob#options) that will change pattern matching behaviour. Defaults to the `node-glob` defaults, but sets `cwd` to the output path. Any `globOptions` passed will take precedence.
+  - `globPattern` - _Optional_ The [glob pattern](https://github.com/isaacs/node-glob#glob-primer) that determines what will be included in the archive. Defaults to `'**/*'` which will include all files in the output path.
 
 **Example**
 
@@ -58,7 +59,8 @@ module.exports = {
     new ArchiverWebpackPlugin({
       destpath: 'foo',
       filename: 'bar-baz',
-      glob: '*.+(css|js)'
+      globOptions: { dot: true, ignore: '*.map' },
+      globPattern: '*'
     })
   ]
 }

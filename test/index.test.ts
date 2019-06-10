@@ -131,11 +131,47 @@ test('filename', done => {
   )
 })
 
-test('glob', done => {
+test('globOptions', done => {
   expect.assertions(2)
   webpack(
     merge(baseConfig, {
-      plugins: [new ArchiverWebpackPlugin({ glob: '*.+(css|js)' })]
+      plugins: [
+        new ArchiverWebpackPlugin({ globOptions: { ignore: '*.+(map|zip)' } })
+      ]
+    }),
+    () => {
+      yauzl.open(
+        path.resolve(
+          defaultOutputPath,
+          `${path.basename(defaultOutputPath)}.zip`
+        ),
+        (_, zip) => {
+          if (zip) {
+            const fileNames: string[] = []
+            zip.on('entry', entry => {
+              fileNames.push(entry.fileName)
+            })
+            zip.on('close', () => {
+              expect(fileNames).toHaveLength(2)
+              expect(fileNames).toEqual(
+                expect.arrayContaining(['main.css', 'main.js'])
+              )
+              done()
+            })
+          } else {
+            done()
+          }
+        }
+      )
+    }
+  )
+})
+
+test('globPattern', done => {
+  expect.assertions(2)
+  webpack(
+    merge(baseConfig, {
+      plugins: [new ArchiverWebpackPlugin({ globPattern: '*.+(css|js)' })]
     }),
     () => {
       yauzl.open(

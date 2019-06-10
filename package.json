@@ -1,0 +1,80 @@
+{
+  "name": "@tanem/archiver-webpack-plugin",
+  "version": "0.0.1",
+  "description": "A webpack plugin that generates zip archives.",
+  "author": "Tane Morgan (https://github.com/tanem)",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "homepage": "https://github.com/tanem/archiver-webpack-plugin",
+  "bugs": "https://github.com/tanem/archiver-webpack-plugin/issues",
+  "repository": "github:tanem/archiver-webpack-plugin",
+  "keywords": [
+    "archive",
+    "archiver",
+    "javascript",
+    "plugin",
+    "webpack",
+    "zip"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "webpack": "^4.33.0"
+  },
+  "devDependencies": {
+    "@types/archiver": "3.0.0",
+    "@types/jest": "24.0.13",
+    "@types/mini-css-extract-plugin": "0.2.1",
+    "@types/rimraf": "2.0.2",
+    "@types/webpack": "4.4.32",
+    "@types/webpack-merge": "4.1.5",
+    "@types/yauzl": "2.9.1",
+    "@typescript-eslint/eslint-plugin": "1.10.1",
+    "@typescript-eslint/parser": "1.10.1",
+    "codecov": "3.5.0",
+    "css-loader": "2.1.1",
+    "del-cli": "2.0.0",
+    "eslint": "5.16.0",
+    "eslint-config-prettier": "4.3.0",
+    "jest": "24.8.0",
+    "mini-css-extract-plugin": "0.7.0",
+    "npm-run-all": "4.1.5",
+    "rimraf": "2.6.3",
+    "shelljs": "0.8.3",
+    "shelljs-plugin-authors": "2.0.9",
+    "ts-jest": "24.0.2",
+    "typescript": "3.5.1",
+    "webpack": "4.33.0",
+    "webpack-cli": "3.3.3",
+    "webpack-merge": "4.2.1",
+    "yauzl": "2.10.0"
+  },
+  "scripts": {
+    "authors": "shelljs-authors > AUTHORS",
+    "build": "run-s clean compile",
+    "changelog": "github_changelog_generator --no-issues --header-label \"# Changelog\" --future-release v$npm_package_version",
+    "check:format": "prettier --list-different \"**/*.{js,ts}\"",
+    "check:types": "tsc --noEmit",
+    "clean": "run-p clean:*",
+    "clean:coverage": "del coverage",
+    "clean:dist": "del dist",
+    "clean:test": "del test/fixtures/dist",
+    "compile": "tsc -p tsconfig.base.json",
+    "format": "prettier --write \"**/*.{js,ts}\"",
+    "lint": "eslint .",
+    "postversion": "git push && git push --tags && npm publish --access=public",
+    "release": "npm version -m 'Release v%s'",
+    "test": "run-s check:* lint build test:*",
+    "test:cjs": "jest --config ./scripts/jest/config.cjs.js",
+    "test:src": "jest --config ./scripts/jest/config.src.js",
+    "version": "run-s test changelog authors && git add ."
+  },
+  "dependencies": {
+    "archiver": "3.0.0"
+  }
+}

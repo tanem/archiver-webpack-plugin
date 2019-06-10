@@ -54,12 +54,13 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'foo.bundle.js'
   },
-  plugins: [new ArchiverWebpackPlugin({
-    destpath: 'foo',
-    filename: 'bar-baz',
-    glob: '*.+(css|js)'
-  })]
-}
+  plugins: [
+    new ArchiverWebpackPlugin({
+      destpath: 'foo',
+      filename: 'bar-baz',
+      glob: '*.+(css|js)'
+    })
+  ]
 }
 ```
 

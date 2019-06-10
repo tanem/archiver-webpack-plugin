@@ -5,5 +5,15 @@
     ":automergeMinor",
     ":rebaseStalePrs"
   ],
+  "packageRules": [
+    {
+      "depTypeList": ["devDependencies"],
+      "rangeStrategy": "pin"
+    },
+    {
+      "depTypeList": ["peerDependencies"],
+      "rangeStrategy": "widen"
+    }
+  ],
   "rangeStrategy": "bump"
 }

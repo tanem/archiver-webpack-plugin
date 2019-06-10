@@ -1,5 +1,12 @@
 # Changelog
 
+## [v2.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v2.0.0) (2019-06-11)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v1.0.0...v2.0.0)
+
+**Merged pull requests:**
+
+- Expand API [\#3](https://github.com/tanem/archiver-webpack-plugin/pull/3) ([tanem](https://github.com/tanem))
+
 ## [v1.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v1.0.0) (2019-06-10)
 **Merged pull requests:**
 

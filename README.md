@@ -5,7 +5,7 @@
 [![coverage status](https://img.shields.io/codecov/c/github/tanem/archiver-webpack-plugin.svg?style=flat-square)](https://codecov.io/gh/tanem/archiver-webpack-plugin)
 [![npm downloads](https://img.shields.io/npm/dm/@tanem/archiver-webpack-plugin.svg?style=flat-square)](https://www.npmjs.com/package/@tanem/archiver-webpack-plugin)
 
-> A webpack plugin that generates `.zip`, `.tar`, or `.tar.gz` archives when the build is [`done`](https://webpack.js.org/api/compiler-hooks#done).
+> A webpack plugin that uses [node-archiver](https://github.com/archiverjs/node-archiver) to generate `.zip`, `.tar`, or `.tar.gz` archives when the build is [`done`](https://webpack.js.org/api/compiler-hooks#done).
 
 ## Basic Usage
 

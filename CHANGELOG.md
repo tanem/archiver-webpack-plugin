@@ -1,6 +1,22 @@
 # Changelog
 
-## [v2.0.1](https://github.com/tanem/archiver-webpack-plugin/tree/v2.0.1) (2019-06-11)
+## [v3.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.0) (2019-06-22)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v2.0.1...v3.0.0)
+
+**Merged pull requests:**
+
+- Handle tar and tgz [\#17](https://github.com/tanem/archiver-webpack-plugin/pull/17) ([tanem](https://github.com/tanem))
+- Update dev dependencies \(major\) [\#16](https://github.com/tanem/archiver-webpack-plugin/pull/16) ([renovate[bot]](https://github.com/apps/renovate))
+- Tweak renovate config [\#15](https://github.com/tanem/archiver-webpack-plugin/pull/15) ([tanem](https://github.com/tanem))
+- Update dependency webpack to v4.35.0 [\#14](https://github.com/tanem/archiver-webpack-plugin/pull/14) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency @types/webpack to v4.4.33 [\#13](https://github.com/tanem/archiver-webpack-plugin/pull/13) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency @types/jest to v24.0.15 [\#12](https://github.com/tanem/archiver-webpack-plugin/pull/12) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency typescript to v3.5.2 [\#10](https://github.com/tanem/archiver-webpack-plugin/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency @types/jest to v24.0.14 [\#9](https://github.com/tanem/archiver-webpack-plugin/pull/9) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency webpack to v4.34.0 [\#8](https://github.com/tanem/archiver-webpack-plugin/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency webpack-cli to v3.3.4 [\#6](https://github.com/tanem/archiver-webpack-plugin/pull/6) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v2.0.1](https://github.com/tanem/archiver-webpack-plugin/tree/v2.0.1) (2019-06-10)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v2.0.0...v2.0.1)
 
 **Merged pull requests:**

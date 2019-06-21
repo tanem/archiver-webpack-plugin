@@ -1,10 +1,11 @@
-import path from 'path'
-import webpack from 'webpack'
-import merge from 'webpack-merge'
-import yauzl from 'yauzl'
 import ArchiverWebpackPlugin from '../src'
 import baseConfig from './fixtures/webpack.config'
-import rimraf = require('rimraf')
+import merge from 'webpack-merge'
+import path from 'path'
+import rimraf from 'rimraf'
+import tar from 'tar'
+import webpack from 'webpack'
+import yauzl from 'yauzl'
 
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 const defaultOutputPath = baseConfig.output!.path!
@@ -17,7 +18,7 @@ test('defaults', done => {
   expect.assertions(2)
   webpack(
     merge(baseConfig, {
-      plugins: [new ArchiverWebpackPlugin()]
+      plugins: [new ArchiverWebpackPlugin('zip')]
     }),
     () => {
       yauzl.open(
@@ -57,7 +58,7 @@ test('destpath', done => {
   expect.assertions(2)
   webpack(
     merge(baseConfig, {
-      plugins: [new ArchiverWebpackPlugin({ destpath: 'foo' })]
+      plugins: [new ArchiverWebpackPlugin('zip', { destpath: 'foo' })]
     }),
     () => {
       yauzl.open(
@@ -98,7 +99,7 @@ test('filename', done => {
   const filename = 'foo'
   webpack(
     merge(baseConfig, {
-      plugins: [new ArchiverWebpackPlugin({ filename })]
+      plugins: [new ArchiverWebpackPlugin('zip', { filename })]
     }),
     () => {
       yauzl.open(
@@ -136,7 +137,9 @@ test('globOptions', done => {
   webpack(
     merge(baseConfig, {
       plugins: [
-        new ArchiverWebpackPlugin({ globOptions: { ignore: '*.+(map|zip)' } })
+        new ArchiverWebpackPlugin('zip', {
+          globOptions: { ignore: '*.+(map|zip)' }
+        })
       ]
     }),
     () => {
@@ -171,7 +174,9 @@ test('globPattern', done => {
   expect.assertions(2)
   webpack(
     merge(baseConfig, {
-      plugins: [new ArchiverWebpackPlugin({ globPattern: '*.+(css|js)' })]
+      plugins: [
+        new ArchiverWebpackPlugin('zip', { globPattern: '*.+(css|js)' })
+      ]
     }),
     () => {
       yauzl.open(
@@ -197,6 +202,65 @@ test('globPattern', done => {
           }
         }
       )
+    }
+  )
+})
+
+test('tar', done => {
+  expect.assertions(2)
+  webpack(
+    merge(baseConfig, {
+      plugins: [
+        new ArchiverWebpackPlugin('tar', { globPattern: '*.+(css|js)' })
+      ]
+    }),
+    () => {
+      const fileNames: string[] = []
+      tar.t({
+        file: path.resolve(
+          defaultOutputPath,
+          `${path.basename(defaultOutputPath)}.tar`
+        ),
+        onentry: entry => {
+          fileNames.push((entry.path as unknown) as string)
+        },
+        sync: true
+      })
+      expect(fileNames).toHaveLength(2)
+      expect(fileNames).toEqual(expect.arrayContaining(['main.js', 'main.css']))
+      done()
+    }
+  )
+})
+
+test('tgz', done => {
+  expect.assertions(2)
+  webpack(
+    merge(baseConfig, {
+      plugins: [
+        new ArchiverWebpackPlugin('tar', {
+          formatOptions: {
+            gzip: true
+          },
+          globPattern: '*.+(css|js)'
+        })
+      ]
+    }),
+    () => {
+      const fileNames: string[] = []
+      tar.t({
+        file: path.resolve(
+          defaultOutputPath,
+          `${path.basename(defaultOutputPath)}.tar.gz`
+        ),
+        onentry: entry => {
+          fileNames.push((entry.path as unknown) as string)
+        },
+        sync: true
+      })
+      expect(fileNames).toHaveLength(2)
+      expect(fileNames).toEqual(expect.arrayContaining(['main.js', 'main.css']))
+      done()
     }
   )
 })

@@ -7,22 +7,31 @@ import webpack from 'webpack'
 class ArchiverWebpackPlugin implements webpack.Plugin {
   destpath: string
   filename?: string
+  format: archiver.Format
+  formatOptions?: archiver.ArchiverOptions
   globOptions?: glob.IOptions
   globPattern: string
 
-  constructor({
-    destpath = '',
-    filename,
-    globOptions,
-    globPattern = '**/*'
-  }: {
-    destpath?: string
-    filename?: string
-    globOptions?: glob.IOptions
-    globPattern?: string
-  } = {}) {
+  constructor(
+    format: archiver.Format,
+    {
+      destpath = '',
+      filename,
+      formatOptions,
+      globOptions,
+      globPattern = '**/*'
+    }: {
+      destpath?: string
+      filename?: string
+      formatOptions?: archiver.ArchiverOptions
+      globOptions?: glob.IOptions
+      globPattern?: string
+    } = {}
+  ) {
     this.destpath = destpath
     this.filename = filename
+    this.format = format
+    this.formatOptions = formatOptions
     this.globOptions = globOptions
     this.globPattern = globPattern
   }
@@ -30,12 +39,18 @@ class ArchiverWebpackPlugin implements webpack.Plugin {
   apply(compiler: webpack.Compiler) {
     compiler.hooks.done.tapAsync('ArchiverWebpackPlugin', (stats, done) => {
       const outputPath = stats.compilation.outputOptions.path
-      const filename = `${this.filename || path.basename(outputPath)}.zip`
+      const extension =
+        (this.formatOptions &&
+          this.formatOptions.gzip &&
+          `${this.format}.gz`) ||
+        this.format
+      const filename = `${this.filename ||
+        path.basename(outputPath)}.${extension}`
 
       const output = fs.createWriteStream(path.resolve(outputPath, filename))
       output.on('close', done)
 
-      const archive = archiver('zip')
+      const archive = archiver(this.format, this.formatOptions)
       archive.pipe(output)
       archive.glob(
         this.globPattern,

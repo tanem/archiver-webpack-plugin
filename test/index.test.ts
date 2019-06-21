@@ -1,11 +1,11 @@
-import ArchiverWebpackPlugin from '../src'
-import baseConfig from './fixtures/webpack.config'
-import merge from 'webpack-merge'
 import path from 'path'
 import rimraf from 'rimraf'
 import tar from 'tar'
 import webpack from 'webpack'
+import merge from 'webpack-merge'
 import yauzl from 'yauzl'
+import ArchiverWebpackPlugin from '../src'
+import baseConfig from './fixtures/webpack.config'
 
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 const defaultOutputPath = baseConfig.output!.path!

@@ -80,7 +80,7 @@
     "version": "run-s test changelog authors && git add ."
   },
   "dependencies": {
-    "archiver": "3.0.0",
+    "archiver": "3.0.3",
     "glob": "7.1.4"
   }
 }

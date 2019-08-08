@@ -1,5 +1,15 @@
 # Changelog
 
+## [v3.0.5](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.5) (2019-08-09)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.4...v3.0.5)
+
+**Merged pull requests:**
+
+- Add .mailmap [#29](https://github.com/tanem/archiver-webpack-plugin/pull/29) ([tanem](https://github.com/tanem))
+- Update dependency archiver to v3.1.1 [#27](https://github.com/tanem/archiver-webpack-plugin/pull/27) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dev dependencies [#26](https://github.com/tanem/archiver-webpack-plugin/pull/26) ([renovate[bot]](https://github.com/apps/renovate))
+- Use tanem-scripts [#28](https://github.com/tanem/archiver-webpack-plugin/pull/28) ([tanem](https://github.com/tanem))
+
 ## [v3.0.4](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.4) (2019-07-23)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.3...v3.0.4)
 

@@ -1,5 +1,14 @@
 # Changelog
 
+## [v3.0.9](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.9) (2019-09-22)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.8...v3.0.9)
+
+**Merged pull requests:**
+
+- Update dependency del-cli to v3 [#36](https://github.com/tanem/archiver-webpack-plugin/pull/36) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dev dependencies [#34](https://github.com/tanem/archiver-webpack-plugin/pull/34) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump eslint-utils from 1.4.0 to 1.4.2 [#35](https://github.com/tanem/archiver-webpack-plugin/pull/35) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v3.0.8](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.8) (2019-08-25)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.7...v3.0.8)
 

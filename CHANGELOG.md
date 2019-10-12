@@ -1,5 +1,13 @@
 # Changelog
 
+## [v3.0.10](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.10) (2019-10-13)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.9...v3.0.10)
+
+**Merged pull requests:**
+
+- Update dev dependencies [#37](https://github.com/tanem/archiver-webpack-plugin/pull/37) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency tar to v5 [#38](https://github.com/tanem/archiver-webpack-plugin/pull/38) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [v3.0.9](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.9) (2019-09-22)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.8...v3.0.9)
 

@@ -58,9 +58,7 @@
     "yauzl": "2.10.0"
   },
   "scripts": {
-    "authors": "tanem-scripts authors > AUTHORS",
     "build": "run-s clean compile",
-    "changelog": "tanem-scripts changelog -f v$npm_package_version > CHANGELOG.md",
     "check:format": "prettier --list-different \"**/*.{js,ts}\"",
     "check:types": "tsc --noEmit",
     "clean": "run-p clean:*",
@@ -68,14 +66,13 @@
     "clean:dist": "del dist",
     "clean:test": "del test/fixtures/dist",
     "compile": "tsc -p tsconfig.base.json",
+    "coverage": "codecov",
     "format": "prettier --write \"**/*.{js,ts}\"",
     "lint": "eslint .",
-    "postversion": "git push && git push --tags && npm publish --access=public",
-    "release": "npm version -m 'Release v%s'",
+    "release": "tanem-scripts release",
     "test": "run-s check:* lint build test:*",
     "test:cjs": "jest --config ./scripts/jest/config.cjs.js",
-    "test:src": "jest --config ./scripts/jest/config.src.js",
-    "version": "run-s test changelog authors && git add ."
+    "test:src": "jest --config ./scripts/jest/config.src.js"
   },
   "dependencies": {
     "archiver": "3.1.1",

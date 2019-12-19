@@ -1,15 +1,23 @@
 {
-  "extends": ["config:base", ":disableRateLimiting", ":rebaseStalePrs"],
+  "extends": [
+    "config:js-lib",
+    ":rebaseStalePrs",
+    ":automergeMinor",
+    ":label(internal)",
+    ":masterIssue"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "stabilityDays": 3,
   "packageRules": [
     {
-      "depTypeList": ["devDependencies"],
-      "groupName": "dev dependencies",
-      "rangeStrategy": "pin"
+      "sourceUrlPrefixes": ["https://github.com/tanem/"],
+      "stabilityDays": 0
     },
     {
-      "depTypeList": ["peerDependencies"],
-      "rangeStrategy": "widen"
+      "depTypeList": ["dependencies"],
+      "rangeStrategy": "bump"
     }
-  ],
-  "rangeStrategy": "bump"
+  ]
 }

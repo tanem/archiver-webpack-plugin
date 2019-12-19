@@ -1,119 +1,136 @@
 # Changelog
 
-## [v3.0.10](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.10) (2019-10-13)
+## [v3.0.11](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.11) (2019-12-19)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.10...v3.0.11)
+
+#### :house: Internal
+
+- [#42](https://github.com/tanem/archiver-webpack-plugin/pull/42) Reconfigure tooling ([@tanem](https://github.com/tanem))
+- [#41](https://github.com/tanem/archiver-webpack-plugin/pull/41) Update dependency tanem-scripts to v5 ([@renovate[bot]](https://github.com/apps/renovate))
+
+## [v3.0.10](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.10) (2019-10-12)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.9...v3.0.10)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#37](https://github.com/tanem/archiver-webpack-plugin/pull/37) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency tar to v5 [#38](https://github.com/tanem/archiver-webpack-plugin/pull/38) ([renovate[bot]](https://github.com/apps/renovate))
+- [#37](https://github.com/tanem/archiver-webpack-plugin/pull/37) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
+- [#38](https://github.com/tanem/archiver-webpack-plugin/pull/38) Update dependency tar to v5 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v3.0.9](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.9) (2019-09-22)
+## [v3.0.9](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.9) (2019-09-21)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.8...v3.0.9)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency del-cli to v3 [#36](https://github.com/tanem/archiver-webpack-plugin/pull/36) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dev dependencies [#34](https://github.com/tanem/archiver-webpack-plugin/pull/34) ([renovate[bot]](https://github.com/apps/renovate))
-- Bump eslint-utils from 1.4.0 to 1.4.2 [#35](https://github.com/tanem/archiver-webpack-plugin/pull/35) ([dependabot[bot]](https://github.com/apps/dependabot))
+- [#36](https://github.com/tanem/archiver-webpack-plugin/pull/36) Update dependency del-cli to v3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#34](https://github.com/tanem/archiver-webpack-plugin/pull/34) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v3.0.8](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.8) (2019-08-25)
+#### :question: Unlabelled
+
+- [#35](https://github.com/tanem/archiver-webpack-plugin/pull/35) Bump eslint-utils from 1.4.0 to 1.4.2 ([@dependabot[bot]](https://github.com/apps/dependabot))
+
+## [v3.0.8](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.8) (2019-08-24)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.7...v3.0.8)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#33](https://github.com/tanem/archiver-webpack-plugin/pull/33) ([renovate[bot]](https://github.com/apps/renovate))
+- [#33](https://github.com/tanem/archiver-webpack-plugin/pull/33) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v3.0.7](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.7) (2019-08-22)
+## [v3.0.7](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.7) (2019-08-21)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.6...v3.0.7)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#31](https://github.com/tanem/archiver-webpack-plugin/pull/31) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dev dependencies (major) [#32](https://github.com/tanem/archiver-webpack-plugin/pull/32) ([renovate[bot]](https://github.com/apps/renovate))
+- [#31](https://github.com/tanem/archiver-webpack-plugin/pull/31) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
+- [#32](https://github.com/tanem/archiver-webpack-plugin/pull/32) Update dev dependencies (major) ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v3.0.6](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.6) (2019-08-11)
+## [v3.0.6](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.6) (2019-08-10)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.5...v3.0.6)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency tanem-scripts to v2.0.1 [#30](https://github.com/tanem/archiver-webpack-plugin/pull/30) ([renovate[bot]](https://github.com/apps/renovate))
+- [#30](https://github.com/tanem/archiver-webpack-plugin/pull/30) Update dependency tanem-scripts to v2.0.1 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v3.0.5](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.5) (2019-08-09)
+## [v3.0.5](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.5) (2019-08-08)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.4...v3.0.5)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Add .mailmap [#29](https://github.com/tanem/archiver-webpack-plugin/pull/29) ([tanem](https://github.com/tanem))
-- Update dependency archiver to v3.1.1 [#27](https://github.com/tanem/archiver-webpack-plugin/pull/27) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dev dependencies [#26](https://github.com/tanem/archiver-webpack-plugin/pull/26) ([renovate[bot]](https://github.com/apps/renovate))
-- Use tanem-scripts [#28](https://github.com/tanem/archiver-webpack-plugin/pull/28) ([tanem](https://github.com/tanem))
+- [#29](https://github.com/tanem/archiver-webpack-plugin/pull/29) Add .mailmap ([@tanem](https://github.com/tanem))
+- [#27](https://github.com/tanem/archiver-webpack-plugin/pull/27) Update dependency archiver to v3.1.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#26](https://github.com/tanem/archiver-webpack-plugin/pull/26) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
+- [#28](https://github.com/tanem/archiver-webpack-plugin/pull/28) Use tanem-scripts ([@tanem](https://github.com/tanem))
 
 ## [v3.0.4](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.4) (2019-07-23)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.3...v3.0.4)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency archiver to v3.0.3 [#24](https://github.com/tanem/archiver-webpack-plugin/pull/24) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dev dependencies [#23](https://github.com/tanem/archiver-webpack-plugin/pull/23) ([renovate[bot]](https://github.com/apps/renovate))
-- Update changelog generation script [#25](https://github.com/tanem/archiver-webpack-plugin/pull/25) ([tanem](https://github.com/tanem))
+- [#24](https://github.com/tanem/archiver-webpack-plugin/pull/24) Update dependency archiver to v3.0.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#23](https://github.com/tanem/archiver-webpack-plugin/pull/23) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
+- [#25](https://github.com/tanem/archiver-webpack-plugin/pull/25) Update changelog generation script ([@tanem](https://github.com/tanem))
 
 ## [v3.0.3](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.3) (2019-07-16)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.2...v3.0.3)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies (major) [#20](https://github.com/tanem/archiver-webpack-plugin/pull/20) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dev dependencies [#21](https://github.com/tanem/archiver-webpack-plugin/pull/21) ([renovate[bot]](https://github.com/apps/renovate))
-- Add prettier dependency [#22](https://github.com/tanem/archiver-webpack-plugin/pull/22) ([tanem](https://github.com/tanem))
+- [#20](https://github.com/tanem/archiver-webpack-plugin/pull/20) Update dev dependencies (major) ([@renovate[bot]](https://github.com/apps/renovate))
+- [#21](https://github.com/tanem/archiver-webpack-plugin/pull/21) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
+- [#22](https://github.com/tanem/archiver-webpack-plugin/pull/22) Add prettier dependency ([@tanem](https://github.com/tanem))
 
 ## [v3.0.2](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.2) (2019-06-22)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.1...v3.0.2)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Tidy up imports [#19](https://github.com/tanem/archiver-webpack-plugin/pull/19) ([tanem](https://github.com/tanem))
+- [#19](https://github.com/tanem/archiver-webpack-plugin/pull/19) Tidy up imports ([@tanem](https://github.com/tanem))
 
-## [v3.0.1](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.1) (2019-06-22)
+## [v3.0.1](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.1) (2019-06-21)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.0...v3.0.1)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Pin dependencies [#18](https://github.com/tanem/archiver-webpack-plugin/pull/18) ([renovate[bot]](https://github.com/apps/renovate))
+- [#18](https://github.com/tanem/archiver-webpack-plugin/pull/18) Pin dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v3.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.0) (2019-06-22)
+## [v3.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.0) (2019-06-21)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v2.0.1...v3.0.0)
 
-**Merged pull requests:**
+#### :boom: Breaking Change
 
-- Handle tar and tgz [#17](https://github.com/tanem/archiver-webpack-plugin/pull/17) ([tanem](https://github.com/tanem))
-- Update dev dependencies (major) [#16](https://github.com/tanem/archiver-webpack-plugin/pull/16) ([renovate[bot]](https://github.com/apps/renovate))
-- Tweak renovate config [#15](https://github.com/tanem/archiver-webpack-plugin/pull/15) ([tanem](https://github.com/tanem))
-- Update dependency webpack to v4.35.0 [#14](https://github.com/tanem/archiver-webpack-plugin/pull/14) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency @types/webpack to v4.4.33 [#13](https://github.com/tanem/archiver-webpack-plugin/pull/13) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency @types/jest to v24.0.15 [#12](https://github.com/tanem/archiver-webpack-plugin/pull/12) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency typescript to v3.5.2 [#10](https://github.com/tanem/archiver-webpack-plugin/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency @types/jest to v24.0.14 [#9](https://github.com/tanem/archiver-webpack-plugin/pull/9) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency webpack to v4.34.0 [#8](https://github.com/tanem/archiver-webpack-plugin/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency webpack-cli to v3.3.4 [#6](https://github.com/tanem/archiver-webpack-plugin/pull/6) ([renovate[bot]](https://github.com/apps/renovate))
+- [#17](https://github.com/tanem/archiver-webpack-plugin/pull/17) Handle tar and tgz ([@tanem](https://github.com/tanem))
 
-## [v2.0.1](https://github.com/tanem/archiver-webpack-plugin/tree/v2.0.1) (2019-06-11)
+#### :house: Internal
+
+- [#16](https://github.com/tanem/archiver-webpack-plugin/pull/16) Update dev dependencies (major) ([@renovate[bot]](https://github.com/apps/renovate))
+- [#15](https://github.com/tanem/archiver-webpack-plugin/pull/15) Tweak renovate config ([@tanem](https://github.com/tanem))
+- [#14](https://github.com/tanem/archiver-webpack-plugin/pull/14) Update dependency webpack to v4.35.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#13](https://github.com/tanem/archiver-webpack-plugin/pull/13) Update dependency @types/webpack to v4.4.33 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#12](https://github.com/tanem/archiver-webpack-plugin/pull/12) Update dependency @types/jest to v24.0.15 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#10](https://github.com/tanem/archiver-webpack-plugin/pull/10) Update dependency typescript to v3.5.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#9](https://github.com/tanem/archiver-webpack-plugin/pull/9) Update dependency @types/jest to v24.0.14 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#8](https://github.com/tanem/archiver-webpack-plugin/pull/8) Update dependency webpack to v4.34.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#6](https://github.com/tanem/archiver-webpack-plugin/pull/6) Update dependency webpack-cli to v3.3.4 ([@renovate[bot]](https://github.com/apps/renovate))
+
+## [v2.0.1](https://github.com/tanem/archiver-webpack-plugin/tree/v2.0.1) (2019-06-10)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v2.0.0...v2.0.1)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Reconfigure renovate [#5](https://github.com/tanem/archiver-webpack-plugin/pull/5) ([tanem](https://github.com/tanem))
+- [#5](https://github.com/tanem/archiver-webpack-plugin/pull/5) Reconfigure renovate ([@tanem](https://github.com/tanem))
 
-## [v2.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v2.0.0) (2019-06-11)
+## [v2.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v2.0.0) (2019-06-10)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v1.0.0...v2.0.0)
 
-**Merged pull requests:**
+#### :rocket: Enhancement
 
-- Expand API [#3](https://github.com/tanem/archiver-webpack-plugin/pull/3) ([tanem](https://github.com/tanem))
+- [#3](https://github.com/tanem/archiver-webpack-plugin/pull/3) Expand API ([@tanem](https://github.com/tanem))
 
 ## [v1.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v1.0.0) (2019-06-10)
 
-**Merged pull requests:**
+#### :memo: Documentation
 
-- Fix api example [#2](https://github.com/tanem/archiver-webpack-plugin/pull/2) ([tanem](https://github.com/tanem))
-- Update typescript-eslint monorepo to v1.10.2 [#1](https://github.com/tanem/archiver-webpack-plugin/pull/1) ([renovate[bot]](https://github.com/apps/renovate))
+- [#2](https://github.com/tanem/archiver-webpack-plugin/pull/2) Fix api example ([@tanem](https://github.com/tanem))
+
+#### :house: Internal
+
+- [#1](https://github.com/tanem/archiver-webpack-plugin/pull/1) Update typescript-eslint monorepo to v1.10.2 ([@renovate[bot]](https://github.com/apps/renovate))

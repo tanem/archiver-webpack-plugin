@@ -1,5 +1,31 @@
 # Changelog
 
+## [v3.0.13](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.13) (2020-01-30)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.12...v3.0.13)
+
+#### :house: Internal
+
+- [#93](https://github.com/tanem/archiver-webpack-plugin/pull/93) Reconfigure renovate ([@tanem](https://github.com/tanem))
+- [#86](https://github.com/tanem/archiver-webpack-plugin/pull/86) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#83](https://github.com/tanem/archiver-webpack-plugin/pull/83) Update dependency @types/jest to v24.9.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#84](https://github.com/tanem/archiver-webpack-plugin/pull/84) Update dependency codecov to v3.6.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#81](https://github.com/tanem/archiver-webpack-plugin/pull/81) Update dependency @types/webpack to v4.41.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#80](https://github.com/tanem/archiver-webpack-plugin/pull/80) Update typescript-eslint monorepo to v2.17.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#79](https://github.com/tanem/archiver-webpack-plugin/pull/79) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#78](https://github.com/tanem/archiver-webpack-plugin/pull/78) Update dependency typescript to v3.7.5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#76](https://github.com/tanem/archiver-webpack-plugin/pull/76) Update dependency @types/jest to v24.9.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#75](https://github.com/tanem/archiver-webpack-plugin/pull/75) Update typescript-eslint monorepo to v2.16.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#77](https://github.com/tanem/archiver-webpack-plugin/pull/77) Update dependency tanem-scripts to v5.0.5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#73](https://github.com/tanem/archiver-webpack-plugin/pull/73) Update dependency css-loader to v3.4.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#74](https://github.com/tanem/archiver-webpack-plugin/pull/74) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#72](https://github.com/tanem/archiver-webpack-plugin/pull/72) Update dependency @types/webpack to v4.41.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#71](https://github.com/tanem/archiver-webpack-plugin/pull/71) Update dependency ts-jest to v24.3.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#70](https://github.com/tanem/archiver-webpack-plugin/pull/70) Update typescript-eslint monorepo to v2.15.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#66](https://github.com/tanem/archiver-webpack-plugin/pull/66) Update dependency css-loader to v3.4.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#69](https://github.com/tanem/archiver-webpack-plugin/pull/69) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#68](https://github.com/tanem/archiver-webpack-plugin/pull/68) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#67](https://github.com/tanem/archiver-webpack-plugin/pull/67) Update dependency tanem-scripts to v5.0.4 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v3.0.12](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.12) (2020-01-04)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.11...v3.0.12)
 

@@ -2,6 +2,14 @@
 
 Details relating to major changes that aren't presently in `CHANGELOG.md`, due to limitations with how that file is being generated.
 
+## v4.0.0
+
+This release switched from default to named exports.
+
+**Changed**
+
+- `ArchiverWebpackPlugin` is now a named export.
+
 ## v3.0.0
 
 This release added the ability to create `.tar` and `.tar.gz` archives.

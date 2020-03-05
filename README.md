@@ -10,7 +10,7 @@
 ## Basic Usage
 
 ```js
-const ArchiverWebpackPlugin = require('@tanem/archiver-webpack-plugin')
+const { ArchiverWebpackPlugin } = require('@tanem/archiver-webpack-plugin')
 const path = require('path')
 
 module.exports = {
@@ -39,7 +39,7 @@ module.exports = {
 **Example**
 
 ```js
-const ArchiverWebpackPlugin = require('@tanem/archiver-webpack-plugin')
+const { ArchiverWebpackPlugin } = require('@tanem/archiver-webpack-plugin')
 const path = require('path')
 
 module.exports = {

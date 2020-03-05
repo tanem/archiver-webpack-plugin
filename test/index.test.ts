@@ -4,7 +4,7 @@ import tar from 'tar'
 import webpack from 'webpack'
 import merge from 'webpack-merge'
 import yauzl from 'yauzl'
-import ArchiverWebpackPlugin from '../src'
+import { ArchiverWebpackPlugin } from '../src'
 import baseConfig from './fixtures/webpack.config'
 
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion

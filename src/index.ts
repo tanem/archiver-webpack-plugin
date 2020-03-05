@@ -4,7 +4,7 @@ import glob from 'glob'
 import path from 'path'
 import webpack from 'webpack'
 
-class ArchiverWebpackPlugin implements webpack.Plugin {
+export class ArchiverWebpackPlugin implements webpack.Plugin {
   destpath: string
   filename?: string
   format: archiver.Format
@@ -61,5 +61,3 @@ class ArchiverWebpackPlugin implements webpack.Plugin {
     })
   }
 }
-
-export default ArchiverWebpackPlugin

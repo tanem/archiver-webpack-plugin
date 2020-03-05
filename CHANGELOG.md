@@ -1,5 +1,19 @@
 # Changelog
 
+## [v4.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v4.0.0) (2020-03-05)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.16...v4.0.0)
+
+#### :boom: Breaking Change
+
+- [#119](https://github.com/tanem/archiver-webpack-plugin/pull/119) Use named exports ([@tanem](https://github.com/tanem))
+
+#### :house: Internal
+
+- [#118](https://github.com/tanem/archiver-webpack-plugin/pull/118) Update dependency webpack to v4.42.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#116](https://github.com/tanem/archiver-webpack-plugin/pull/116) Update dependency tanem-scripts to v5.0.13 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#115](https://github.com/tanem/archiver-webpack-plugin/pull/115) Update dependency typescript to v3.8.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#114](https://github.com/tanem/archiver-webpack-plugin/pull/114) Update dependency @types/webpack to v4.41.7 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v3.0.16](https://github.com/tanem/archiver-webpack-plugin/tree/v3.0.16) (2020-02-29)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v3.0.15...v3.0.16)
 

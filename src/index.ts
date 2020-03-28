@@ -19,7 +19,7 @@ export class ArchiverWebpackPlugin implements webpack.Plugin {
       filename,
       formatOptions,
       globOptions,
-      globPattern = '**/*'
+      globPattern = '**/*',
     }: {
       destpath?: string
       filename?: string
@@ -44,8 +44,9 @@ export class ArchiverWebpackPlugin implements webpack.Plugin {
           this.formatOptions.gzip &&
           `${this.format}.gz`) ||
         this.format
-      const filename = `${this.filename ||
-        path.basename(outputPath)}.${extension}`
+      const filename = `${
+        this.filename || path.basename(outputPath)
+      }.${extension}`
 
       const output = fs.createWriteStream(path.resolve(outputPath, filename))
       output.on('close', done)

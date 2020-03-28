@@ -10,15 +10,15 @@ import baseConfig from './fixtures/webpack.config'
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 const defaultOutputPath = baseConfig.output!.path!
 
-afterEach(done => {
+afterEach((done) => {
   rimraf(defaultOutputPath, done)
 })
 
-test('defaults', done => {
+test('defaults', (done) => {
   expect.assertions(2)
   webpack(
     merge(baseConfig, {
-      plugins: [new ArchiverWebpackPlugin('zip')]
+      plugins: [new ArchiverWebpackPlugin('zip')],
     }),
     () => {
       yauzl.open(
@@ -29,7 +29,7 @@ test('defaults', done => {
         (_, zip) => {
           if (zip) {
             const fileNames: string[] = []
-            zip.on('entry', entry => {
+            zip.on('entry', (entry) => {
               fileNames.push(entry.fileName)
             })
             zip.on('close', () => {
@@ -40,7 +40,7 @@ test('defaults', done => {
                   'main.css',
                   'main.css.map',
                   'main.js',
-                  'main.js.map'
+                  'main.js.map',
                 ])
               )
               done()
@@ -54,11 +54,11 @@ test('defaults', done => {
   )
 })
 
-test('destpath', done => {
+test('destpath', (done) => {
   expect.assertions(2)
   webpack(
     merge(baseConfig, {
-      plugins: [new ArchiverWebpackPlugin('zip', { destpath: 'foo' })]
+      plugins: [new ArchiverWebpackPlugin('zip', { destpath: 'foo' })],
     }),
     () => {
       yauzl.open(
@@ -69,7 +69,7 @@ test('destpath', done => {
         (_, zip) => {
           if (zip) {
             const fileNames: string[] = []
-            zip.on('entry', entry => {
+            zip.on('entry', (entry) => {
               fileNames.push(entry.fileName)
             })
             zip.on('close', () => {
@@ -80,7 +80,7 @@ test('destpath', done => {
                   'foo/main.css',
                   'foo/main.css.map',
                   'foo/main.js',
-                  'foo/main.js.map'
+                  'foo/main.js.map',
                 ])
               )
               done()
@@ -94,12 +94,12 @@ test('destpath', done => {
   )
 })
 
-test('filename', done => {
+test('filename', (done) => {
   expect.assertions(2)
   const filename = 'foo'
   webpack(
     merge(baseConfig, {
-      plugins: [new ArchiverWebpackPlugin('zip', { filename })]
+      plugins: [new ArchiverWebpackPlugin('zip', { filename })],
     }),
     () => {
       yauzl.open(
@@ -107,7 +107,7 @@ test('filename', done => {
         (_, zip) => {
           if (zip) {
             const fileNames: string[] = []
-            zip.on('entry', entry => {
+            zip.on('entry', (entry) => {
               fileNames.push(entry.fileName)
             })
             zip.on('close', () => {
@@ -118,7 +118,7 @@ test('filename', done => {
                   'main.css.map',
                   'main.js',
                   'main.css',
-                  'main.js.map'
+                  'main.js.map',
                 ])
               )
               done()
@@ -132,15 +132,15 @@ test('filename', done => {
   )
 })
 
-test('globOptions', done => {
+test('globOptions', (done) => {
   expect.assertions(2)
   webpack(
     merge(baseConfig, {
       plugins: [
         new ArchiverWebpackPlugin('zip', {
-          globOptions: { ignore: '*.+(map|zip)' }
-        })
-      ]
+          globOptions: { ignore: '*.+(map|zip)' },
+        }),
+      ],
     }),
     () => {
       yauzl.open(
@@ -151,7 +151,7 @@ test('globOptions', done => {
         (_, zip) => {
           if (zip) {
             const fileNames: string[] = []
-            zip.on('entry', entry => {
+            zip.on('entry', (entry) => {
               fileNames.push(entry.fileName)
             })
             zip.on('close', () => {
@@ -170,13 +170,13 @@ test('globOptions', done => {
   )
 })
 
-test('globPattern', done => {
+test('globPattern', (done) => {
   expect.assertions(2)
   webpack(
     merge(baseConfig, {
       plugins: [
-        new ArchiverWebpackPlugin('zip', { globPattern: '*.+(css|js)' })
-      ]
+        new ArchiverWebpackPlugin('zip', { globPattern: '*.+(css|js)' }),
+      ],
     }),
     () => {
       yauzl.open(
@@ -187,7 +187,7 @@ test('globPattern', done => {
         (_, zip) => {
           if (zip) {
             const fileNames: string[] = []
-            zip.on('entry', entry => {
+            zip.on('entry', (entry) => {
               fileNames.push(entry.fileName)
             })
             zip.on('close', () => {
@@ -206,13 +206,13 @@ test('globPattern', done => {
   )
 })
 
-test('tar', done => {
+test('tar', (done) => {
   expect.assertions(2)
   webpack(
     merge(baseConfig, {
       plugins: [
-        new ArchiverWebpackPlugin('tar', { globPattern: '*.+(css|js)' })
-      ]
+        new ArchiverWebpackPlugin('tar', { globPattern: '*.+(css|js)' }),
+      ],
     }),
     () => {
       const fileNames: string[] = []
@@ -221,10 +221,10 @@ test('tar', done => {
           defaultOutputPath,
           `${path.basename(defaultOutputPath)}.tar`
         ),
-        onentry: entry => {
+        onentry: (entry) => {
           fileNames.push((entry.path as unknown) as string)
         },
-        sync: true
+        sync: true,
       })
       expect(fileNames).toHaveLength(2)
       expect(fileNames).toEqual(expect.arrayContaining(['main.js', 'main.css']))
@@ -233,18 +233,18 @@ test('tar', done => {
   )
 })
 
-test('tgz', done => {
+test('tgz', (done) => {
   expect.assertions(2)
   webpack(
     merge(baseConfig, {
       plugins: [
         new ArchiverWebpackPlugin('tar', {
           formatOptions: {
-            gzip: true
+            gzip: true,
           },
-          globPattern: '*.+(css|js)'
-        })
-      ]
+          globPattern: '*.+(css|js)',
+        }),
+      ],
     }),
     () => {
       const fileNames: string[] = []
@@ -253,10 +253,10 @@ test('tgz', done => {
           defaultOutputPath,
           `${path.basename(defaultOutputPath)}.tar.gz`
         ),
-        onentry: entry => {
+        onentry: (entry) => {
           fileNames.push((entry.path as unknown) as string)
         },
-        sync: true
+        sync: true,
       })
       expect(fileNames).toHaveLength(2)
       expect(fileNames).toEqual(expect.arrayContaining(['main.js', 'main.css']))

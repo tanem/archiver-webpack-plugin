@@ -10,18 +10,18 @@ const config: webpack.Configuration = {
     rules: [
       {
         test: /\.css$/,
-        use: [{ loader: MiniCssExtractPlugin.loader }, 'css-loader']
-      }
-    ]
+        use: [{ loader: MiniCssExtractPlugin.loader }, 'css-loader'],
+      },
+    ],
   },
   output: {
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: '[name].css'
-    })
-  ]
+      filename: '[name].css',
+    }),
+  ],
 }
 
 export default config

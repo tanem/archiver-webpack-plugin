@@ -9,7 +9,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "homepage": "https://github.com/tanem/archiver-webpack-plugin",
   "bugs": "https://github.com/tanem/archiver-webpack-plugin/issues",

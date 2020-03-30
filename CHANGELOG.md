@@ -1,5 +1,22 @@
 # Changelog
 
+## [v5.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.0) (2020-03-30)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v4.0.2...v5.0.0)
+
+#### :boom: Breaking Change
+
+- [#131](https://github.com/tanem/archiver-webpack-plugin/pull/131) Drop node 8 support ([@tanem](https://github.com/tanem))
+
+#### :house: Internal
+
+- [#129](https://github.com/tanem/archiver-webpack-plugin/pull/129) Update dependency prettier to v2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#125](https://github.com/tanem/archiver-webpack-plugin/pull/125) Update dependency webpack to v4.42.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#130](https://github.com/tanem/archiver-webpack-plugin/pull/130) Use codecov bash uploader ([@tanem](https://github.com/tanem))
+- [#124](https://github.com/tanem/archiver-webpack-plugin/pull/124) Update typescript-eslint monorepo to v2.25.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#128](https://github.com/tanem/archiver-webpack-plugin/pull/128) Update dependency eslint-config-prettier to v6.10.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#127](https://github.com/tanem/archiver-webpack-plugin/pull/127) Update dependency tanem-scripts to v5.0.16 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#126](https://github.com/tanem/archiver-webpack-plugin/pull/126) Update dependency @types/rimraf to v3 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v4.0.2](https://github.com/tanem/archiver-webpack-plugin/tree/v4.0.2) (2020-03-21)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v4.0.1...v4.0.2)
 

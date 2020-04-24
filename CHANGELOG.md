@@ -1,5 +1,13 @@
 # Changelog
 
+## [v5.0.5](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.5) (2020-04-24)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.4...v5.0.5)
+
+#### :house: Internal
+
+- [#156](https://github.com/tanem/archiver-webpack-plugin/pull/156) Update dependency eslint-config-prettier to v6.11.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#154](https://github.com/tanem/archiver-webpack-plugin/pull/154) Update dependency prettier to v2.0.5 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v5.0.4](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.4) (2020-04-24)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.3...v5.0.4)
 

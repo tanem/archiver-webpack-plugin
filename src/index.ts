@@ -36,7 +36,7 @@ export class ArchiverWebpackPlugin implements webpack.Plugin {
     this.globPattern = globPattern
   }
 
-  apply(compiler: webpack.Compiler) {
+  apply(compiler: webpack.Compiler): void {
     compiler.hooks.done.tapAsync('ArchiverWebpackPlugin', (stats, done) => {
       const outputPath = stats.compilation.outputOptions.path
       const extension =

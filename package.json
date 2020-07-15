@@ -53,7 +53,7 @@
     "typescript": "3.9.6",
     "webpack": "4.43.0",
     "webpack-cli": "3.3.12",
-    "webpack-merge": "4.2.2",
+    "webpack-merge": "5.0.9",
     "yauzl": "2.10.0"
   },
   "scripts": {

@@ -1,7 +1,7 @@
 # archiver-webpack-plugin
 
 [![npm version](https://img.shields.io/npm/v/@tanem/archiver-webpack-plugin.svg?style=flat-square)](https://www.npmjs.com/package/@tanem/archiver-webpack-plugin)
-[![build status](https://img.shields.io/travis/tanem/archiver-webpack-plugin/master.svg?style=flat-square)](https://travis-ci.org/tanem/archiver-webpack-plugin)
+[![build status](https://img.shields.io/github/workflow/status/tanem/archiver-webpack-plugin/CI?style=flat-square)](https://github.com/tanem/archiver-webpack-plugin/actions?query=workflow%3ACI)
 [![coverage status](https://img.shields.io/codecov/c/github/tanem/archiver-webpack-plugin.svg?style=flat-square)](https://codecov.io/gh/tanem/archiver-webpack-plugin)
 [![npm downloads](https://img.shields.io/npm/dm/@tanem/archiver-webpack-plugin.svg?style=flat-square)](https://www.npmjs.com/package/@tanem/archiver-webpack-plugin)
 
@@ -18,9 +18,9 @@ module.exports = {
   entry: './foo.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'foo.bundle.js'
+    filename: 'foo.bundle.js',
   },
-  plugins: [new ArchiverWebpackPlugin('zip')]
+  plugins: [new ArchiverWebpackPlugin('zip')],
 }
 ```
 
@@ -47,7 +47,7 @@ module.exports = {
   entry: './foo.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'foo.bundle.js'
+    filename: 'foo.bundle.js',
   },
   plugins: [
     new ArchiverWebpackPlugin('tar', {
@@ -55,9 +55,9 @@ module.exports = {
       filename: 'bar-baz',
       formatOptions: { gzip: true },
       globOptions: { dot: true, ignore: '*.map' },
-      globPattern: '*'
-    })
-  ]
+      globPattern: '*',
+    }),
+  ],
 }
 ```
 

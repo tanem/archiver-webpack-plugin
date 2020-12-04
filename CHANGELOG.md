@@ -1,5 +1,15 @@
 # Changelog
 
+## [v5.0.32](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.32) (2020-12-04)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.31...v5.0.32)
+
+#### :house: Internal
+
+- [#340](https://github.com/tanem/archiver-webpack-plugin/pull/340) Switch from travis to gh actions ([@tanem](https://github.com/tanem))
+- [#339](https://github.com/tanem/archiver-webpack-plugin/pull/339) Update typescript-eslint monorepo to v4.9.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#338](https://github.com/tanem/archiver-webpack-plugin/pull/338) Update dependency prettier to v2.2.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#337](https://github.com/tanem/archiver-webpack-plugin/pull/337) Update dependency tanem-scripts to v6.0.2 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v5.0.31](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.31) (2020-11-27)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.30...v5.0.31)
 

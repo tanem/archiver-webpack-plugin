@@ -1,5 +1,22 @@
 # Changelog
 
+## [v5.0.33](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.33) (2020-12-18)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.32...v5.0.33)
+
+#### :house: Internal
+
+- [#351](https://github.com/tanem/archiver-webpack-plugin/pull/351) Update typescript-eslint monorepo to v4.10.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#350](https://github.com/tanem/archiver-webpack-plugin/pull/350) Update dependency webpack-merge to v5.7.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#349](https://github.com/tanem/archiver-webpack-plugin/pull/349) Update dependency typescript to v4.1.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#348](https://github.com/tanem/archiver-webpack-plugin/pull/348) Update dependency mini-css-extract-plugin to v1.3.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#347](https://github.com/tanem/archiver-webpack-plugin/pull/347) Update dependency @types/jest to v26.0.19 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#346](https://github.com/tanem/archiver-webpack-plugin/pull/346) Update typescript-eslint monorepo to v4.9.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#345](https://github.com/tanem/archiver-webpack-plugin/pull/345) Update dependency eslint-config-prettier to v7 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#344](https://github.com/tanem/archiver-webpack-plugin/pull/344) Update dependency eslint to v7.15.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#343](https://github.com/tanem/archiver-webpack-plugin/pull/343) Update dependency tanem-scripts to v6.0.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#342](https://github.com/tanem/archiver-webpack-plugin/pull/342) Update dependency mini-css-extract-plugin to v1.3.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#341](https://github.com/tanem/archiver-webpack-plugin/pull/341) Update dependency @types/jest to v26.0.16 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v5.0.32](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.32) (2020-12-04)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.31...v5.0.32)
 

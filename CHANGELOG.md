@@ -1,5 +1,21 @@
 # Changelog
 
+## [v5.0.37](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.37) (2021-02-14)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.36...v5.0.37)
+
+#### :house: Internal
+
+- [#388](https://github.com/tanem/archiver-webpack-plugin/pull/388) Update dependency typescript to v4.1.5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#387](https://github.com/tanem/archiver-webpack-plugin/pull/387) Update dependency webpack to v4.46.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#386](https://github.com/tanem/archiver-webpack-plugin/pull/386) Update dependency ts-jest to v26.5.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#385](https://github.com/tanem/archiver-webpack-plugin/pull/385) Update typescript-eslint monorepo to v4.15.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#384](https://github.com/tanem/archiver-webpack-plugin/pull/384) Update dependency css-loader to v5.0.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#383](https://github.com/tanem/archiver-webpack-plugin/pull/383) Update dependency mini-css-extract-plugin to v1.3.6 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#382](https://github.com/tanem/archiver-webpack-plugin/pull/382) Update dependency tanem-scripts to v6.0.7 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#381](https://github.com/tanem/archiver-webpack-plugin/pull/381) Update dependency webpack-cli to v4.5.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#380](https://github.com/tanem/archiver-webpack-plugin/pull/380) Update typescript-eslint monorepo to v4.14.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#379](https://github.com/tanem/archiver-webpack-plugin/pull/379) Update dependency eslint to v7.19.0 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v5.0.36](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.36) (2021-02-02)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.35...v5.0.36)
 

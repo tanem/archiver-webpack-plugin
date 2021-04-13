@@ -15,8 +15,18 @@
       "rangeStrategy": "bump"
     },
     {
-      "matchPackageNames": ["webpack"],
+      "matchPackageNames": [
+        "@types/webpack",
+        "webpack"
+      ],
       "allowedVersions": "< 5.0.0"
+    },
+    {
+      "matchPackageNames": [
+        "@types/mini-css-extract-plugin",
+        "mini-css-extract-plugin"
+      ],
+      "allowedVersions": "<= 1.4.0"
     }
   ],
   "prCreation": "not-pending",

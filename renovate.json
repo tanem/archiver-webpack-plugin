@@ -13,6 +13,10 @@
     {
       "depTypeList": ["dependencies"],
       "rangeStrategy": "bump"
+    },
+    {
+      "matchPackageNames": ["webpack"],
+      "allowedVersions": "< 5.0.0"
     }
   ],
   "prCreation": "not-pending",

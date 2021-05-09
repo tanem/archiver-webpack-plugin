@@ -1,5 +1,15 @@
 # Changelog
 
+## [v5.0.44](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.44) (2021-05-09)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.43...v5.0.44)
+
+#### :house: Internal
+
+- [#449](https://github.com/tanem/archiver-webpack-plugin/pull/449) Update docs and fix audit issues ([@tanem](https://github.com/tanem))
+- [#448](https://github.com/tanem/archiver-webpack-plugin/pull/448) Update dependency webpack-cli to v4.7.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#446](https://github.com/tanem/archiver-webpack-plugin/pull/446) Update dependency ts-jest to v26.5.6 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#445](https://github.com/tanem/archiver-webpack-plugin/pull/445) Update dependency @types/webpack to v4.41.28 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v5.0.43](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.43) (2021-05-07)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.42...v5.0.43)
 

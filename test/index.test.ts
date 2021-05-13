@@ -222,7 +222,7 @@ test('tar', (done) => {
           `${path.basename(defaultOutputPath)}.tar`
         ),
         onentry: (entry) => {
-          fileNames.push((entry.path as unknown) as string)
+          fileNames.push(entry.path as unknown as string)
         },
         sync: true,
       })
@@ -254,7 +254,7 @@ test('tgz', (done) => {
           `${path.basename(defaultOutputPath)}.tar.gz`
         ),
         onentry: (entry) => {
-          fileNames.push((entry.path as unknown) as string)
+          fileNames.push(entry.path as unknown as string)
         },
         sync: true,
       })

@@ -1,5 +1,16 @@
 # Changelog
 
+## [v5.0.50](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.50) (2021-07-04)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.49...v5.0.50)
+
+#### :house: Internal
+
+- [#485](https://github.com/tanem/archiver-webpack-plugin/pull/485) Update dependency typescript to v4.3.5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#484](https://github.com/tanem/archiver-webpack-plugin/pull/484) Update typescript-eslint monorepo to v4.28.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#483](https://github.com/tanem/archiver-webpack-plugin/pull/483) Update dependency jest to v27.0.6 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#482](https://github.com/tanem/archiver-webpack-plugin/pull/482) Update dependency prettier to v2.3.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#481](https://github.com/tanem/archiver-webpack-plugin/pull/481) Update dependency tanem-scripts to v6.0.21 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v5.0.49](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.49) (2021-06-25)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.48...v5.0.49)
 

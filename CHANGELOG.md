@@ -1,5 +1,21 @@
 # Changelog
 
+## [v5.0.51](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.51) (2021-07-12)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.50...v5.0.51)
+
+#### :house: Internal
+
+- [#495](https://github.com/tanem/archiver-webpack-plugin/pull/495) Update dependency @types/rimraf to v3.0.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#494](https://github.com/tanem/archiver-webpack-plugin/pull/494) Update dependency @types/jest to v26.0.24 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#493](https://github.com/tanem/archiver-webpack-plugin/pull/493) Update dependency @types/glob to v7.1.4 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#492](https://github.com/tanem/archiver-webpack-plugin/pull/492) Update dependency @types/archiver to v5.1.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#491](https://github.com/tanem/archiver-webpack-plugin/pull/491) Update typescript-eslint monorepo to v4.28.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#490](https://github.com/tanem/archiver-webpack-plugin/pull/490) Update dependency tanem-scripts to v6.0.22 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#489](https://github.com/tanem/archiver-webpack-plugin/pull/489) Update dependency eslint to v7.30.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#488](https://github.com/tanem/archiver-webpack-plugin/pull/488) Update dependency @types/tar to v4.0.5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#487](https://github.com/tanem/archiver-webpack-plugin/pull/487) Update dependency @types/webpack to v4.41.30 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#486](https://github.com/tanem/archiver-webpack-plugin/pull/486) Update dependency @types/yauzl to v2.9.2 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v5.0.50](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.50) (2021-07-04)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.49...v5.0.50)
 

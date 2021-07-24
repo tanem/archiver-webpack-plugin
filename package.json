@@ -38,7 +38,7 @@
     "@types/yauzl": "2.9.2",
     "@typescript-eslint/eslint-plugin": "4.28.4",
     "@typescript-eslint/parser": "4.28.4",
-    "css-loader": "5.2.7",
+    "css-loader": "6.2.0",
     "eslint": "7.31.0",
     "eslint-config-prettier": "8.3.0",
     "jest": "27.0.6",

@@ -48,7 +48,7 @@
     "rimraf": "3.0.2",
     "shx": "0.3.3",
     "tanem-scripts": "6.0.27",
-    "tar": "6.1.2",
+    "tar": "6.1.6",
     "ts-jest": "27.0.4",
     "typescript": "4.3.5",
     "webpack": "4.46.0",

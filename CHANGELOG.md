@@ -1,5 +1,13 @@
 # Changelog
 
+## [v5.0.65](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.65) (2021-10-22)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.64...v5.0.65)
+
+#### :house: Internal
+
+- [#552](https://github.com/tanem/archiver-webpack-plugin/pull/552) Update dependency ts-jest to v27.0.7 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#551](https://github.com/tanem/archiver-webpack-plugin/pull/551) Update dependency typescript to v4.4.4 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v5.0.64](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.64) (2021-10-15)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.63...v5.0.64)
 

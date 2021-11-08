@@ -2,6 +2,18 @@
 
 Details relating to major changes that aren't presently in `CHANGELOG.md`, due to limitations with how that file is being generated.
 
+## v6.0.0
+
+**Removed**
+
+- Dropped Node.js v10 support.
+
+## v5.0.0
+
+**Removed**
+
+- Dropped Node.js v8 support.
+
 ## v4.0.0
 
 This release switched from default to named exports.

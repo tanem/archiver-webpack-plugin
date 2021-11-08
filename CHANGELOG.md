@@ -1,5 +1,25 @@
 # Changelog
 
+## [v6.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v6.0.0) (2021-11-08)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.65...v6.0.0)
+
+#### :boom: Breaking Change
+
+- [#560](https://github.com/tanem/archiver-webpack-plugin/pull/560) Drop node 10 support ([@tanem](https://github.com/tanem))
+
+#### :house: Internal
+
+- [#562](https://github.com/tanem/archiver-webpack-plugin/pull/562) Reconfigure renovate ([@tanem](https://github.com/tanem))
+- [#561](https://github.com/tanem/archiver-webpack-plugin/pull/561) Tidy lockfile ([@tanem](https://github.com/tanem))
+- [#549](https://github.com/tanem/archiver-webpack-plugin/pull/549) Update dependency eslint to v8 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#559](https://github.com/tanem/archiver-webpack-plugin/pull/559) Add node 16 ([@tanem](https://github.com/tanem))
+- [#558](https://github.com/tanem/archiver-webpack-plugin/pull/558) Update typescript-eslint monorepo to v5.3.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#557](https://github.com/tanem/archiver-webpack-plugin/pull/557) Update dependency @types/tar to v6 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#555](https://github.com/tanem/archiver-webpack-plugin/pull/555) Update dependency jest to v27.3.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#556](https://github.com/tanem/archiver-webpack-plugin/pull/556) Update dependency @types/glob to v7.2.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#553](https://github.com/tanem/archiver-webpack-plugin/pull/553) Update dependency webpack-cli to v4.9.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#554](https://github.com/tanem/archiver-webpack-plugin/pull/554) Update typescript-eslint monorepo to v5.2.0 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v5.0.65](https://github.com/tanem/archiver-webpack-plugin/tree/v5.0.65) (2021-10-22)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.64...v5.0.65)
 

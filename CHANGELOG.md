@@ -1,5 +1,12 @@
 # Changelog
 
+## [v6.0.1](https://github.com/tanem/archiver-webpack-plugin/tree/v6.0.1) (2021-11-12)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v6.0.0...v6.0.1)
+
+#### :house: Internal
+
+- [#563](https://github.com/tanem/archiver-webpack-plugin/pull/563) Update typescript-eslint monorepo to v5.3.1 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v6.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v6.0.0) (2021-11-08)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v5.0.65...v6.0.0)
 

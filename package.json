@@ -33,7 +33,7 @@
     "@types/mini-css-extract-plugin": "1.4.0",
     "@types/rimraf": "3.0.2",
     "@types/tar": "6.1.0",
-    "@types/webpack": "4.41.31",
+    "@types/webpack": "4.41.32",
     "@types/webpack-merge": "4.1.5",
     "@types/yauzl": "2.9.2",
     "@typescript-eslint/eslint-plugin": "5.3.1",

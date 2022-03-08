@@ -1,5 +1,21 @@
 # Changelog
 
+## [v6.0.12](https://github.com/tanem/archiver-webpack-plugin/tree/v6.0.12) (2022-03-08)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v6.0.11...v6.0.12)
+
+#### :house: Internal
+
+- [#620](https://github.com/tanem/archiver-webpack-plugin/pull/620) Update dependency eslint-config-prettier to v8.5.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#619](https://github.com/tanem/archiver-webpack-plugin/pull/619) Update dependency typescript to v4.6.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#618](https://github.com/tanem/archiver-webpack-plugin/pull/618) Update typescript-eslint monorepo to v5.13.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#617](https://github.com/tanem/archiver-webpack-plugin/pull/617) Update actions/checkout action to v3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#616](https://github.com/tanem/archiver-webpack-plugin/pull/616) Update dependency eslint to v8.10.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#615](https://github.com/tanem/archiver-webpack-plugin/pull/615) Update dependency @types/jest to v27.4.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#614](https://github.com/tanem/archiver-webpack-plugin/pull/614) Update actions/setup-node action to v3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#613](https://github.com/tanem/archiver-webpack-plugin/pull/613) Update typescript-eslint monorepo to v5.12.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#612](https://github.com/tanem/archiver-webpack-plugin/pull/612) Update dependency eslint-config-prettier to v8.4.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#611](https://github.com/tanem/archiver-webpack-plugin/pull/611) Update dependency tanem-scripts to v6.0.42 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v6.0.11](https://github.com/tanem/archiver-webpack-plugin/tree/v6.0.11) (2022-02-18)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v6.0.10...v6.0.11)
 

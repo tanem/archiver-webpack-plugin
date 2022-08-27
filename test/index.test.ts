@@ -132,43 +132,6 @@ test('filename', (done) => {
   )
 })
 
-test('extension', (done) => {
-  expect.assertions(2)
-  webpack(
-    merge(baseConfig, {
-      plugins: [new ArchiverWebpackPlugin('zip', { extension: 'jar' })],
-    }),
-    () => {
-      yauzl.open(
-        path.resolve(defaultOutputPath, `${path.basename(defaultOutputPath)}.jar`),
-        (_, zip) => {
-          if (zip) {
-            const fileNames: string[] = []
-            zip.on('entry', (entry) => {
-              fileNames.push(entry.fileName)
-            })
-            zip.on('close', () => {
-              expect(fileNames).toHaveLength(5)
-              expect(fileNames).toEqual(
-                expect.arrayContaining([
-                  'dist.jar',
-                  'main.css.map',
-                  'main.js',
-                  'main.css',
-                  'main.js.map',
-                ])
-              )
-              done()
-            })
-          } else {
-            done()
-          }
-        }
-      )
-    }
-  )
-})
-
 test('globOptions', (done) => {
   expect.assertions(2)
   webpack(
@@ -298,6 +261,46 @@ test('tgz', (done) => {
       expect(fileNames).toHaveLength(2)
       expect(fileNames).toEqual(expect.arrayContaining(['main.js', 'main.css']))
       done()
+    }
+  )
+})
+
+test('jar', (done) => {
+  expect.assertions(2)
+  webpack(
+    merge(baseConfig, {
+      plugins: [new ArchiverWebpackPlugin('jar')],
+    }),
+    () => {
+      yauzl.open(
+        path.resolve(
+          defaultOutputPath,
+          `${path.basename(defaultOutputPath)}.jar`
+        ),
+        (_, zip) => {
+          if (zip) {
+            const fileNames: string[] = []
+            zip.on('entry', (entry) => {
+              fileNames.push(entry.fileName)
+            })
+            zip.on('close', () => {
+              expect(fileNames).toHaveLength(5)
+              expect(fileNames).toEqual(
+                expect.arrayContaining([
+                  'dist.jar',
+                  'main.css.map',
+                  'main.js',
+                  'main.css',
+                  'main.js.map',
+                ])
+              )
+              done()
+            })
+          } else {
+            done()
+          }
+        }
+      )
     }
   )
 })

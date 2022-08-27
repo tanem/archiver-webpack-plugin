@@ -4,28 +4,27 @@ import glob from 'glob'
 import path from 'path'
 import webpack from 'webpack'
 
+type Format = archiver.Format | 'jar'
+
 export class ArchiverWebpackPlugin implements webpack.Plugin {
   destpath: string
   filename?: string
-  extension?: string
-  format: archiver.Format
+  format: Format
   formatOptions?: archiver.ArchiverOptions
   globOptions?: glob.IOptions
   globPattern: string
 
   constructor(
-    format: archiver.Format,
+    format: Format,
     {
       destpath = '',
       filename,
-      extension,
       formatOptions,
       globOptions,
       globPattern = '**/*',
     }: {
       destpath?: string
       filename?: string
-      extension?: string
       formatOptions?: archiver.ArchiverOptions
       globOptions?: glob.IOptions
       globPattern?: string
@@ -33,7 +32,6 @@ export class ArchiverWebpackPlugin implements webpack.Plugin {
   ) {
     this.destpath = destpath
     this.filename = filename
-    this.extension = extension
     this.format = format
     this.formatOptions = formatOptions
     this.globOptions = globOptions
@@ -44,7 +42,6 @@ export class ArchiverWebpackPlugin implements webpack.Plugin {
     compiler.hooks.done.tapAsync('ArchiverWebpackPlugin', (stats, done) => {
       const outputPath = stats.compilation.outputOptions.path
       const extension =
-        this.extension ||
         (this.formatOptions &&
           this.formatOptions.gzip &&
           `${this.format}.gz`) ||
@@ -56,7 +53,10 @@ export class ArchiverWebpackPlugin implements webpack.Plugin {
       const output = fs.createWriteStream(path.resolve(outputPath, filename))
       output.on('close', done)
 
-      const archive = archiver(this.format, this.formatOptions)
+      const archive = archiver(
+        this.format === 'jar' ? 'zip' : this.format,
+        this.formatOptions
+      )
       archive.pipe(output)
       archive.glob(
         this.globPattern,

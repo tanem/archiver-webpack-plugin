@@ -1,5 +1,17 @@
 # Changelog
 
+## [v6.1.0](https://github.com/tanem/archiver-webpack-plugin/tree/v6.1.0) (2022-08-27)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v6.0.26...v6.1.0)
+
+#### :rocket: Enhancement
+
+- [#697](https://github.com/tanem/archiver-webpack-plugin/pull/697) Add .jar format option ([@mir3z](https://github.com/mir3z))
+
+#### :house: Internal
+
+- [#705](https://github.com/tanem/archiver-webpack-plugin/pull/705) Update dependency tanem-scripts to v6.0.58 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#706](https://github.com/tanem/archiver-webpack-plugin/pull/706) Update dependency @types/jest to v28.1.8 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v6.0.26](https://github.com/tanem/archiver-webpack-plugin/tree/v6.0.26) (2022-08-22)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v6.0.25...v6.0.26)
 

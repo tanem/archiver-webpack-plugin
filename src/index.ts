@@ -4,16 +4,18 @@ import glob from 'glob'
 import path from 'path'
 import webpack from 'webpack'
 
+type Format = archiver.Format | 'jar'
+
 export class ArchiverWebpackPlugin implements webpack.Plugin {
   destpath: string
   filename?: string
-  format: archiver.Format
+  format: Format
   formatOptions?: archiver.ArchiverOptions
   globOptions?: glob.IOptions
   globPattern: string
 
   constructor(
-    format: archiver.Format,
+    format: Format,
     {
       destpath = '',
       filename,
@@ -51,7 +53,10 @@ export class ArchiverWebpackPlugin implements webpack.Plugin {
       const output = fs.createWriteStream(path.resolve(outputPath, filename))
       output.on('close', done)
 
-      const archive = archiver(this.format, this.formatOptions)
+      const archive = archiver(
+        this.format === 'jar' ? 'zip' : this.format,
+        this.formatOptions
+      )
       archive.pipe(output)
       archive.glob(
         this.globPattern,

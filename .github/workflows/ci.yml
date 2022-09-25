@@ -19,5 +19,5 @@ jobs:
           node-version: ${{ matrix.node }}
       - run: npm ci
       - run: npm test
-      - run: bash <(curl -s https://codecov.io/bash)
+      - uses: codecov/codecov-action@v3
         if: matrix.node == '14'

@@ -2,6 +2,12 @@
 
 Details relating to major changes that aren't presently in `CHANGELOG.md`, due to limitations with how that file is being generated.
 
+## v7.0.0
+
+**Removed**
+
+- Dropped Node.js v12 support.
+
 ## v6.0.0
 
 **Removed**

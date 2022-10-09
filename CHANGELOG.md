@@ -1,5 +1,25 @@
 # Changelog
 
+## [v7.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v7.0.0) (2022-10-09)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v6.1.2...v7.0.0)
+
+#### :boom: Breaking Change
+
+- [#709](https://github.com/tanem/archiver-webpack-plugin/pull/709) Update jest monorepo to v29 (major) ([@renovate[bot]](https://github.com/apps/renovate))
+
+#### :house: Internal
+
+- [#726](https://github.com/tanem/archiver-webpack-plugin/pull/726) Update jest monorepo to v29.1.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#727](https://github.com/tanem/archiver-webpack-plugin/pull/727) Update typescript-eslint monorepo to v5.39.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#722](https://github.com/tanem/archiver-webpack-plugin/pull/722) Update dependency ts-jest to v29.0.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#725](https://github.com/tanem/archiver-webpack-plugin/pull/725) Update dependency typescript to v4.8.4 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#724](https://github.com/tanem/archiver-webpack-plugin/pull/724) Update dependency @types/tar to v6.1.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#723](https://github.com/tanem/archiver-webpack-plugin/pull/723) Update typescript-eslint monorepo to v5.38.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#721](https://github.com/tanem/archiver-webpack-plugin/pull/721) Update dependency eslint to v8.24.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#720](https://github.com/tanem/archiver-webpack-plugin/pull/720) Use codecov action ([@tanem](https://github.com/tanem))
+- [#719](https://github.com/tanem/archiver-webpack-plugin/pull/719) Update typescript-eslint monorepo to v5.38.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#718](https://github.com/tanem/archiver-webpack-plugin/pull/718) Update dependency tanem-scripts to v6.0.60 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v6.1.2](https://github.com/tanem/archiver-webpack-plugin/tree/v6.1.2) (2022-09-18)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v6.1.1...v6.1.2)
 

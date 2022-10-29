@@ -1,5 +1,12 @@
 # Changelog
 
+## [v7.0.2](https://github.com/tanem/archiver-webpack-plugin/tree/v7.0.2) (2022-10-29)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v7.0.1...v7.0.2)
+
+#### :house: Internal
+
+- [#738](https://github.com/tanem/archiver-webpack-plugin/pull/738) Update dependency jest to v29.2.2 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v7.0.1](https://github.com/tanem/archiver-webpack-plugin/tree/v7.0.1) (2022-10-29)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v7.0.0...v7.0.1)
 

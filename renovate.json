@@ -34,6 +34,12 @@
         "css-loader"
       ],
       "allowedVersions": "< 6.0.0"
+    },
+    {
+      "packageNames": [
+        "node"
+      ],
+      "enabled": false
     }
   ],
   "prCreation": "not-pending",

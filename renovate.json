@@ -18,7 +18,8 @@
     {
       "matchPackageNames": [
         "@types/webpack",
-        "webpack"
+        "webpack",
+        "webpack-cli"
       ],
       "allowedVersions": "< 5.0.0"
     },

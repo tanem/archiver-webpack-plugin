@@ -1,7 +1,7 @@
 # archiver-webpack-plugin
 
 [![npm version](https://img.shields.io/npm/v/@tanem/archiver-webpack-plugin.svg?style=flat-square)](https://www.npmjs.com/package/@tanem/archiver-webpack-plugin)
-[![build status](https://img.shields.io/github/workflow/status/tanem/archiver-webpack-plugin/CI?style=flat-square)](https://github.com/tanem/archiver-webpack-plugin/actions?query=workflow%3ACI)
+[![build status](https://img.shields.io/github/actions/workflow/status/tanem/archiver-webpack-plugin/ci.yml?branch=master&style=flat-square)](https://github.com/tanem/archiver-webpack-plugin/actions?query=workflow%3ACI)
 [![coverage status](https://img.shields.io/codecov/c/github/tanem/archiver-webpack-plugin.svg?style=flat-square)](https://codecov.io/gh/tanem/archiver-webpack-plugin)
 [![npm downloads](https://img.shields.io/npm/dm/@tanem/archiver-webpack-plugin.svg?style=flat-square)](https://www.npmjs.com/package/@tanem/archiver-webpack-plugin)
 

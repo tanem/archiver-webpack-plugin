@@ -1,5 +1,18 @@
 # Changelog
 
+## [v7.0.9](https://github.com/tanem/archiver-webpack-plugin/tree/v7.0.9) (2023-01-06)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v7.0.8...v7.0.9)
+
+#### :house: Internal
+
+- [#778](https://github.com/tanem/archiver-webpack-plugin/pull/778) Update typescript-eslint monorepo to v5.48.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#777](https://github.com/tanem/archiver-webpack-plugin/pull/777) Update dependency eslint-config-prettier to v8.6.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#776](https://github.com/tanem/archiver-webpack-plugin/pull/776) Update dependency eslint to v8.31.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#775](https://github.com/tanem/archiver-webpack-plugin/pull/775) Update dependency @types/jest to v29.2.5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#774](https://github.com/tanem/archiver-webpack-plugin/pull/774) Update typescript-eslint monorepo to v5.47.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#773](https://github.com/tanem/archiver-webpack-plugin/pull/773) Fix build status badge link ([@tanem](https://github.com/tanem))
+- [#772](https://github.com/tanem/archiver-webpack-plugin/pull/772) Update dependency tanem-scripts to v6.0.68 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v7.0.8](https://github.com/tanem/archiver-webpack-plugin/tree/v7.0.8) (2022-12-23)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v7.0.7...v7.0.8)
 

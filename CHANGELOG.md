@@ -1,5 +1,13 @@
 # Changelog
 
+## [v7.0.10](https://github.com/tanem/archiver-webpack-plugin/tree/v7.0.10) (2023-01-13)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v7.0.9...v7.0.10)
+
+#### :house: Internal
+
+- [#780](https://github.com/tanem/archiver-webpack-plugin/pull/780) Update typescript-eslint monorepo to v5.48.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#779](https://github.com/tanem/archiver-webpack-plugin/pull/779) Update dependency prettier to v2.8.2 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v7.0.9](https://github.com/tanem/archiver-webpack-plugin/tree/v7.0.9) (2023-01-06)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v7.0.8...v7.0.9)
 

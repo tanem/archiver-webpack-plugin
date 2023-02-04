@@ -10,9 +10,7 @@ import baseConfig from './fixtures/webpack.config'
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 const defaultOutputPath = baseConfig.output!.path!
 
-afterEach((done) => {
-  rimraf(defaultOutputPath, done)
-})
+afterEach(() => rimraf(defaultOutputPath))
 
 test('defaults', (done) => {
   expect.assertions(2)

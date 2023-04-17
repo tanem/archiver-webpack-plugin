@@ -12,7 +12,9 @@
   },
   "packageRules": [
     {
-      "depTypeList": ["dependencies"],
+      "depTypeList": [
+        "dependencies"
+      ],
       "rangeStrategy": "bump"
     },
     {
@@ -43,6 +45,5 @@
       "enabled": false
     }
   ],
-  "prCreation": "not-pending",
   "stabilityDays": 3
 }

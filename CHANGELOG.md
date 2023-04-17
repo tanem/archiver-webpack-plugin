@@ -1,5 +1,13 @@
 # Changelog
 
+## [v7.0.20](https://github.com/tanem/archiver-webpack-plugin/tree/v7.0.20) (2023-04-17)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v7.0.19...v7.0.20)
+
+#### :house: Internal
+
+- [#816](https://github.com/tanem/archiver-webpack-plugin/pull/816) Update dependency rimraf to v4.4.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#827](https://github.com/tanem/archiver-webpack-plugin/pull/827) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v7.0.19](https://github.com/tanem/archiver-webpack-plugin/tree/v7.0.19) (2023-03-26)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v7.0.18...v7.0.19)
 

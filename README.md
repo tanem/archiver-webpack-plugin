@@ -63,11 +63,20 @@ module.exports = {
 
 ## Installation
 
-> ⚠️ This library requires webpack 4 and Node.js >=14 and <18.
+> ⚠️ This library requires webpack 4 and Node.js >= 14.
+
 
 ```
 $ npm install @tanem/archiver-webpack-plugin --save-dev
 ```
+
+If you use node.js >= 17 you'll also need to set an environment variable by running the following command at the prompt, or by adding it to your shell profile:
+
+```
+export NODE_OPTIONS=--openssl-legacy-provider
+```
+
+Ref: [webpack/webpack#14532](https://github.com/webpack/webpack/issues/14532).
 
 ## License
 

@@ -1,5 +1,5 @@
 import path from 'path'
-import rimraf from 'rimraf'
+import { rimraf } from 'rimraf'
 import tar from 'tar'
 import webpack from 'webpack'
 import { merge } from 'webpack-merge'
@@ -10,7 +10,7 @@ import baseConfig from './fixtures/webpack.config'
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 const defaultOutputPath = baseConfig.output!.path!
 
-afterEach(() => rimraf(defaultOutputPath))
+afterEach(async () => await rimraf(defaultOutputPath))
 
 test('defaults', (done) => {
   expect.assertions(2)

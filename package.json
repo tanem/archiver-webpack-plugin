@@ -9,7 +9,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=14.0.0 <18.0.0"
+    "node": ">=14.0.0"
   },
   "homepage": "https://github.com/tanem/archiver-webpack-plugin",
   "bugs": "https://github.com/tanem/archiver-webpack-plugin/issues",
@@ -31,6 +31,7 @@
     "@types/glob": "8.1.0",
     "@types/jest": "29.5.1",
     "@types/mini-css-extract-plugin": "1.4.0",
+    "@types/readdir-glob": "1.1.1",
     "@types/tar": "6.1.4",
     "@types/webpack": "4.41.33",
     "@types/webpack-merge": "4.1.5",
@@ -73,6 +74,6 @@
   },
   "dependencies": {
     "archiver": "5.3.1",
-    "glob": "8.1.0"
+    "readdir-glob": "1.1.3"
   }
 }

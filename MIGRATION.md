@@ -2,6 +2,16 @@
 
 Details relating to major changes that aren't presently in `CHANGELOG.md`, due to limitations with how that file is being generated.
 
+## v8.0.0
+
+**Added**
+
+- Added Node.js v18 support.
+
+**Changed**
+
+- `readdir-glob` is now used instead of `glob`.
+
 ## v7.0.0
 
 **Removed**

@@ -1,8 +1,8 @@
 import archiver from 'archiver'
 import fs from 'fs'
-import glob from 'glob'
 import path from 'path'
 import webpack from 'webpack'
+import readdirGlob from 'readdir-glob'
 
 type Format = archiver.Format | 'jar'
 
@@ -11,7 +11,8 @@ export class ArchiverWebpackPlugin implements webpack.Plugin {
   filename?: string
   format: Format
   formatOptions?: archiver.ArchiverOptions
-  globOptions?: glob.IOptions
+  // globOptions?: glob.IOptions
+  globOptions?: readdirGlob.Options
   globPattern: string
 
   constructor(
@@ -26,7 +27,8 @@ export class ArchiverWebpackPlugin implements webpack.Plugin {
       destpath?: string
       filename?: string
       formatOptions?: archiver.ArchiverOptions
-      globOptions?: glob.IOptions
+      // globOptions?: glob.IOptions
+      globOptions?: readdirGlob.Options
       globPattern?: string
     } = {}
   ) {

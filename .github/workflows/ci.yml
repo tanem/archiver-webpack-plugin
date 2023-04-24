@@ -19,10 +19,6 @@ jobs:
           node-version: ${{ matrix.node }}
           check-latest: true
       - run: npm ci
-      - run: echo "NODE_OPTIONS=--openssl-legacy-provider" >> $GITHUB_ENV
-        if: matrix.node == '18'
       - run: npm test
-      - run: echo "NODE_OPTIONS=" >> $GITHUB_ENV
-        if: matrix.node == '18'
       - uses: codecov/codecov-action@v3
         if: matrix.node == '14'

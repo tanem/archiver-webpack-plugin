@@ -1,5 +1,31 @@
 # Changelog
 
+## [v8.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v8.0.0) (2023-04-24)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v7.0.20...v8.0.0)
+
+#### :boom: Breaking Change
+
+- [#841](https://github.com/tanem/archiver-webpack-plugin/pull/841) Use readdir-glob instead of glob ([@tanem](https://github.com/tanem))
+
+#### :house: Internal
+
+- [#844](https://github.com/tanem/archiver-webpack-plugin/pull/844) Set NODE_OPTIONS via npm scripts ([@tanem](https://github.com/tanem))
+- [#843](https://github.com/tanem/archiver-webpack-plugin/pull/843) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#831](https://github.com/tanem/archiver-webpack-plugin/pull/831) Update dependency rimraf to v5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#823](https://github.com/tanem/archiver-webpack-plugin/pull/823) Update dependency @types/archiver to v5.3.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#842](https://github.com/tanem/archiver-webpack-plugin/pull/842) Update dependency @types/jest to v29.5.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#840](https://github.com/tanem/archiver-webpack-plugin/pull/840) Update typescript-eslint monorepo to v5.59.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#836](https://github.com/tanem/archiver-webpack-plugin/pull/836) Update dependency ts-jest to v29.1.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#835](https://github.com/tanem/archiver-webpack-plugin/pull/835) Update dependency eslint-config-prettier to v8.8.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#834](https://github.com/tanem/archiver-webpack-plugin/pull/834) Update dependency eslint to v8.38.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#833](https://github.com/tanem/archiver-webpack-plugin/pull/833) Update dependency @types/jest to v29.5.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#829](https://github.com/tanem/archiver-webpack-plugin/pull/829) Update dependency prettier to v2.8.7 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#837](https://github.com/tanem/archiver-webpack-plugin/pull/837) Update typescript-eslint monorepo to v5.58.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#839](https://github.com/tanem/archiver-webpack-plugin/pull/839) Update dependency typescript to v5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#830](https://github.com/tanem/archiver-webpack-plugin/pull/830) Update dependency tanem-scripts to v7.0.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#832](https://github.com/tanem/archiver-webpack-plugin/pull/832) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#828](https://github.com/tanem/archiver-webpack-plugin/pull/828) Use default renovate prCreation setting ([@tanem](https://github.com/tanem))
+
 ## [v7.0.20](https://github.com/tanem/archiver-webpack-plugin/tree/v7.0.20) (2023-04-17)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v7.0.19...v7.0.20)
 

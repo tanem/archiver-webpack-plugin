@@ -70,7 +70,7 @@ module.exports = {
 $ npm install @tanem/archiver-webpack-plugin --save-dev
 ```
 
-If you use node.js >= 17 you'll also need to set an environment variable by running the following command at the prompt, or by adding it to your shell profile:
+If you use Node.js >= 17 you'll also need to set an environment variable by running the following command at the prompt, or by adding it to your shell profile:
 
 ```
 export NODE_OPTIONS=--openssl-legacy-provider

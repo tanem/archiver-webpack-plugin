@@ -1,5 +1,14 @@
 # Changelog
 
+## [v8.0.2](https://github.com/tanem/archiver-webpack-plugin/tree/v8.0.2) (2023-05-05)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v8.0.1...v8.0.2)
+
+#### :house: Internal
+
+- [#852](https://github.com/tanem/archiver-webpack-plugin/pull/852) Update typescript-eslint monorepo to v5.59.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#851](https://github.com/tanem/archiver-webpack-plugin/pull/851) Update dependency tanem-scripts to v7.0.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#850](https://github.com/tanem/archiver-webpack-plugin/pull/850) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v8.0.1](https://github.com/tanem/archiver-webpack-plugin/tree/v8.0.1) (2023-04-29)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v8.0.0...v8.0.1)
 

@@ -1,5 +1,18 @@
 # Changelog
 
+## [v8.0.5](https://github.com/tanem/archiver-webpack-plugin/tree/v8.0.5) (2023-05-26)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v8.0.4...v8.0.5)
+
+#### :house: Internal
+
+- [#868](https://github.com/tanem/archiver-webpack-plugin/pull/868) Update typescript-eslint monorepo to v5.59.7 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#867](https://github.com/tanem/archiver-webpack-plugin/pull/867) Update dependency webpack-merge to v5.9.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#866](https://github.com/tanem/archiver-webpack-plugin/pull/866) Update dependency tanem-scripts to v7.0.6 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#865](https://github.com/tanem/archiver-webpack-plugin/pull/865) Update dependency eslint to v8.41.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#864](https://github.com/tanem/archiver-webpack-plugin/pull/864) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#863](https://github.com/tanem/archiver-webpack-plugin/pull/863) Update dependency rimraf to v5.0.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#862](https://github.com/tanem/archiver-webpack-plugin/pull/862) Update dependency tar to v6.1.15 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v8.0.4](https://github.com/tanem/archiver-webpack-plugin/tree/v8.0.4) (2023-05-20)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v8.0.3...v8.0.4)
 

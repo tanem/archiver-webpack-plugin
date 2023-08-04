@@ -22,7 +22,7 @@ test('defaults', (done) => {
       yauzl.open(
         path.resolve(
           defaultOutputPath,
-          `${path.basename(defaultOutputPath)}.zip`
+          `${path.basename(defaultOutputPath)}.zip`,
         ),
         (_, zip) => {
           if (zip) {
@@ -39,16 +39,16 @@ test('defaults', (done) => {
                   'main.css.map',
                   'main.js',
                   'main.js.map',
-                ])
+                ]),
               )
               done()
             })
           } else {
             done()
           }
-        }
+        },
       )
-    }
+    },
   )
 })
 
@@ -62,7 +62,7 @@ test('destpath', (done) => {
       yauzl.open(
         path.resolve(
           defaultOutputPath,
-          `${path.basename(defaultOutputPath)}.zip`
+          `${path.basename(defaultOutputPath)}.zip`,
         ),
         (_, zip) => {
           if (zip) {
@@ -79,16 +79,16 @@ test('destpath', (done) => {
                   'foo/main.css.map',
                   'foo/main.js',
                   'foo/main.js.map',
-                ])
+                ]),
               )
               done()
             })
           } else {
             done()
           }
-        }
+        },
       )
-    }
+    },
   )
 })
 
@@ -117,16 +117,16 @@ test('filename', (done) => {
                   'main.js',
                   'main.css',
                   'main.js.map',
-                ])
+                ]),
               )
               done()
             })
           } else {
             done()
           }
-        }
+        },
       )
-    }
+    },
   )
 })
 
@@ -144,7 +144,7 @@ test('globOptions', (done) => {
       yauzl.open(
         path.resolve(
           defaultOutputPath,
-          `${path.basename(defaultOutputPath)}.zip`
+          `${path.basename(defaultOutputPath)}.zip`,
         ),
         (_, zip) => {
           if (zip) {
@@ -155,16 +155,16 @@ test('globOptions', (done) => {
             zip.on('close', () => {
               expect(fileNames).toHaveLength(2)
               expect(fileNames).toEqual(
-                expect.arrayContaining(['main.css', 'main.js'])
+                expect.arrayContaining(['main.css', 'main.js']),
               )
               done()
             })
           } else {
             done()
           }
-        }
+        },
       )
-    }
+    },
   )
 })
 
@@ -180,7 +180,7 @@ test('globPattern', (done) => {
       yauzl.open(
         path.resolve(
           defaultOutputPath,
-          `${path.basename(defaultOutputPath)}.zip`
+          `${path.basename(defaultOutputPath)}.zip`,
         ),
         (_, zip) => {
           if (zip) {
@@ -191,16 +191,16 @@ test('globPattern', (done) => {
             zip.on('close', () => {
               expect(fileNames).toHaveLength(2)
               expect(fileNames).toEqual(
-                expect.arrayContaining(['main.js', 'main.css'])
+                expect.arrayContaining(['main.js', 'main.css']),
               )
               done()
             })
           } else {
             done()
           }
-        }
+        },
       )
-    }
+    },
   )
 })
 
@@ -217,7 +217,7 @@ test('tar', (done) => {
       tar.t({
         file: path.resolve(
           defaultOutputPath,
-          `${path.basename(defaultOutputPath)}.tar`
+          `${path.basename(defaultOutputPath)}.tar`,
         ),
         onentry: (entry) => {
           fileNames.push(entry.path as unknown as string)
@@ -227,7 +227,7 @@ test('tar', (done) => {
       expect(fileNames).toHaveLength(2)
       expect(fileNames).toEqual(expect.arrayContaining(['main.js', 'main.css']))
       done()
-    }
+    },
   )
 })
 
@@ -249,7 +249,7 @@ test('tgz', (done) => {
       tar.t({
         file: path.resolve(
           defaultOutputPath,
-          `${path.basename(defaultOutputPath)}.tar.gz`
+          `${path.basename(defaultOutputPath)}.tar.gz`,
         ),
         onentry: (entry) => {
           fileNames.push(entry.path as unknown as string)
@@ -259,7 +259,7 @@ test('tgz', (done) => {
       expect(fileNames).toHaveLength(2)
       expect(fileNames).toEqual(expect.arrayContaining(['main.js', 'main.css']))
       done()
-    }
+    },
   )
 })
 
@@ -273,7 +273,7 @@ test('jar', (done) => {
       yauzl.open(
         path.resolve(
           defaultOutputPath,
-          `${path.basename(defaultOutputPath)}.jar`
+          `${path.basename(defaultOutputPath)}.jar`,
         ),
         (_, zip) => {
           if (zip) {
@@ -290,15 +290,15 @@ test('jar', (done) => {
                   'main.js',
                   'main.css',
                   'main.js.map',
-                ])
+                ]),
               )
               done()
             })
           } else {
             done()
           }
-        }
+        },
       )
-    }
+    },
   )
 })

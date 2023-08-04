@@ -30,7 +30,7 @@ export class ArchiverWebpackPlugin implements webpack.Plugin {
       // globOptions?: glob.IOptions
       globOptions?: readdirGlob.Options
       globPattern?: string
-    } = {}
+    } = {},
   ) {
     this.destpath = destpath
     this.filename = filename
@@ -57,13 +57,13 @@ export class ArchiverWebpackPlugin implements webpack.Plugin {
 
       const archive = archiver(
         this.format === 'jar' ? 'zip' : this.format,
-        this.formatOptions
+        this.formatOptions,
       )
       archive.pipe(output)
       archive.glob(
         this.globPattern,
         { cwd: outputPath, ...this.globOptions },
-        { prefix: this.destpath }
+        { prefix: this.destpath },
       )
       archive.finalize()
     })

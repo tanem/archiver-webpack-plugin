@@ -2,6 +2,12 @@
 
 Details relating to major changes that aren't presently in `CHANGELOG.md`, due to limitations with how that file is being generated.
 
+## v9.0.0
+
+**Removed**
+
+- Dropped Node.js v14 support.
+
 ## v8.0.0
 
 **Added**

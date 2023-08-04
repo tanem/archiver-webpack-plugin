@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: ['14', '16', '18']
+        node: ['16', '18', '20']
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -21,4 +21,4 @@ jobs:
       - run: npm ci
       - run: npm test
       - uses: codecov/codecov-action@v3
-        if: matrix.node == '14'
+        if: matrix.node == '16'

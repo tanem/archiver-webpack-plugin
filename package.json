@@ -73,7 +73,7 @@
     "test:src": "jest --config ./scripts/jest/config.src.js"
   },
   "dependencies": {
-    "archiver": "5.3.2",
+    "archiver": "6.0.0",
     "readdir-glob": "1.1.3"
   }
 }

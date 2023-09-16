@@ -1,5 +1,18 @@
 # Changelog
 
+## [v9.0.1](https://github.com/tanem/archiver-webpack-plugin/tree/v9.0.1) (2023-09-16)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v9.0.0...v9.0.1)
+
+#### :house: Internal
+
+- [#944](https://github.com/tanem/archiver-webpack-plugin/pull/944) Update dependency @types/tar to v6.1.6 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#943](https://github.com/tanem/archiver-webpack-plugin/pull/943) Update dependency jest to v29.7.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#942](https://github.com/tanem/archiver-webpack-plugin/pull/942) Update typescript-eslint monorepo to v6.7.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#941](https://github.com/tanem/archiver-webpack-plugin/pull/941) Update dependency tanem-scripts to v7.0.17 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#940](https://github.com/tanem/archiver-webpack-plugin/pull/940) Update dependency eslint to v8.49.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#939](https://github.com/tanem/archiver-webpack-plugin/pull/939) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#938](https://github.com/tanem/archiver-webpack-plugin/pull/938) Update dependency webpack to v4.47.0 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v9.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v9.0.0) (2023-09-09)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v8.0.8...v9.0.0)
 

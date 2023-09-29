@@ -1,5 +1,18 @@
 # Changelog
 
+## [v9.0.3](https://github.com/tanem/archiver-webpack-plugin/tree/v9.0.3) (2023-09-29)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v9.0.2...v9.0.3)
+
+#### :house: Internal
+
+- [#950](https://github.com/tanem/archiver-webpack-plugin/pull/950) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#957](https://github.com/tanem/archiver-webpack-plugin/pull/957) Update dependency rimraf to v5.0.5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#956](https://github.com/tanem/archiver-webpack-plugin/pull/956) Update dependency rimraf to v5.0.4 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#955](https://github.com/tanem/archiver-webpack-plugin/pull/955) Update typescript-eslint monorepo to v6.7.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#954](https://github.com/tanem/archiver-webpack-plugin/pull/954) Update dependency @types/webpack to v4.41.34 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#953](https://github.com/tanem/archiver-webpack-plugin/pull/953) Update dependency @types/yauzl to v2.10.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#952](https://github.com/tanem/archiver-webpack-plugin/pull/952) Update dependency eslint to v8.50.0 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v9.0.2](https://github.com/tanem/archiver-webpack-plugin/tree/v9.0.2) (2023-09-26)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v9.0.1...v9.0.2)
 

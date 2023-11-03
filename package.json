@@ -27,7 +27,7 @@
     "webpack": "^4.0.0"
   },
   "devDependencies": {
-    "@types/archiver": "5.3.4",
+    "@types/archiver": "6.0.0",
     "@types/glob": "8.1.0",
     "@types/jest": "29.5.7",
     "@types/mini-css-extract-plugin": "1.4.0",

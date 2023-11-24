@@ -31,7 +31,7 @@
     "@types/glob": "8.1.0",
     "@types/jest": "29.5.9",
     "@types/mini-css-extract-plugin": "1.4.0",
-    "@types/readdir-glob": "1.1.4",
+    "@types/readdir-glob": "1.1.5",
     "@types/tar": "6.1.9",
     "@types/webpack": "4.41.36",
     "@types/webpack-merge": "4.1.5",

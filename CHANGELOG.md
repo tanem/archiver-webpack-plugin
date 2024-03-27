@@ -1,5 +1,42 @@
 # Changelog
 
+## [v9.0.10](https://github.com/tanem/archiver-webpack-plugin/tree/v9.0.10) (2024-03-27)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v9.0.9...v9.0.10)
+
+#### :house: Internal
+
+- [#1072](https://github.com/tanem/archiver-webpack-plugin/pull/1072) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1071](https://github.com/tanem/archiver-webpack-plugin/pull/1071) Update dependency tar to v6.2.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1070](https://github.com/tanem/archiver-webpack-plugin/pull/1070) Update dependency typescript to v5.4.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1069](https://github.com/tanem/archiver-webpack-plugin/pull/1069) Update typescript-eslint monorepo to v7.3.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1068](https://github.com/tanem/archiver-webpack-plugin/pull/1068) Update typescript-eslint monorepo to v7.3.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1067](https://github.com/tanem/archiver-webpack-plugin/pull/1067) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1066](https://github.com/tanem/archiver-webpack-plugin/pull/1066) Update typescript-eslint monorepo to v7.2.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1065](https://github.com/tanem/archiver-webpack-plugin/pull/1065) Update dependency archiver to v7.0.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1064](https://github.com/tanem/archiver-webpack-plugin/pull/1064) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1063](https://github.com/tanem/archiver-webpack-plugin/pull/1063) Update dependency typescript to v5.4.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1062](https://github.com/tanem/archiver-webpack-plugin/pull/1062) Update dependency yauzl to v3.1.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1061](https://github.com/tanem/archiver-webpack-plugin/pull/1061) Update typescript-eslint monorepo to v7.1.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1060](https://github.com/tanem/archiver-webpack-plugin/pull/1060) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1059](https://github.com/tanem/archiver-webpack-plugin/pull/1059) Update dependency archiver to v7 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1058](https://github.com/tanem/archiver-webpack-plugin/pull/1058) Update dependency archiver to v6.0.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1057](https://github.com/tanem/archiver-webpack-plugin/pull/1057) Update dependency yauzl to v3.1.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1056](https://github.com/tanem/archiver-webpack-plugin/pull/1056) Update typescript-eslint monorepo to v7.1.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1055](https://github.com/tanem/archiver-webpack-plugin/pull/1055) Update dependency eslint to v8.57.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1054](https://github.com/tanem/archiver-webpack-plugin/pull/1054) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1053](https://github.com/tanem/archiver-webpack-plugin/pull/1053) Update typescript-eslint monorepo to v7.0.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1052](https://github.com/tanem/archiver-webpack-plugin/pull/1052) Update dependency yauzl to v3.1.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1051](https://github.com/tanem/archiver-webpack-plugin/pull/1051) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1050](https://github.com/tanem/archiver-webpack-plugin/pull/1050) Update dependency yauzl to v3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1049](https://github.com/tanem/archiver-webpack-plugin/pull/1049) Update typescript-eslint monorepo to v7 (major) ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1048](https://github.com/tanem/archiver-webpack-plugin/pull/1048) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1047](https://github.com/tanem/archiver-webpack-plugin/pull/1047) Update typescript-eslint monorepo to v6.21.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1046](https://github.com/tanem/archiver-webpack-plugin/pull/1046) Update dependency prettier to v3.2.5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1045](https://github.com/tanem/archiver-webpack-plugin/pull/1045) Update dependency tanem-scripts to v7.0.26 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1044](https://github.com/tanem/archiver-webpack-plugin/pull/1044) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1043](https://github.com/tanem/archiver-webpack-plugin/pull/1043) Update codecov/codecov-action action to v4 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#1027](https://github.com/tanem/archiver-webpack-plugin/pull/1027) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v9.0.9](https://github.com/tanem/archiver-webpack-plugin/tree/v9.0.9) (2024-02-03)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v9.0.8...v9.0.9)
 

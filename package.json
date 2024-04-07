@@ -31,7 +31,7 @@
     "@types/jest": "29.5.12",
     "@types/mini-css-extract-plugin": "1.4.0",
     "@types/readdir-glob": "1.1.5",
-    "@types/tar": "6.1.11",
+    "@types/tar": "6.1.12",
     "@types/webpack": "4.41.38",
     "@types/webpack-merge": "5.0.0",
     "@types/yauzl": "2.10.3",

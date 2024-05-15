@@ -44,7 +44,7 @@
     "mini-css-extract-plugin": "1.4.0",
     "npm-run-all2": "6.1.2",
     "prettier": "3.2.5",
-    "rimraf": "5.0.6",
+    "rimraf": "5.0.7",
     "shx": "0.3.4",
     "tanem-scripts": "7.0.27",
     "tar": "6.2.1",

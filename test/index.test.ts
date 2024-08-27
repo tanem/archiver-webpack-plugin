@@ -1,6 +1,6 @@
 import path from 'path'
 import { rimraf } from 'rimraf'
-import tar from 'tar'
+import * as tar from 'tar'
 import webpack from 'webpack'
 import { merge } from 'webpack-merge'
 import yauzl from 'yauzl'

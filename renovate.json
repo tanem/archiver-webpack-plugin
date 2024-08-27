@@ -39,6 +39,12 @@
       "allowedVersions": "< 6.0.0"
     },
     {
+      "matchPackageNames": [
+        "readdir-glob"
+      ],
+      "allowedVersions": "< 2.0.0"
+    },
+    {
       "packageNames": [
         "node"
       ],

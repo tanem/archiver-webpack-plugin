@@ -68,7 +68,7 @@
     "format": "prettier --write \"**/*.{js,mjs,ts}\"",
     "lint": "eslint .",
     "release": "tanem-scripts release",
-    "test": "NODE_OPTIONS=$(node -e \"console.log(process.versions.node.split('.')[0] > 17 ? '--openssl-legacy-provider' : '')\") run-s check:* lint build test:*",
+    "test": "run-s check:* lint build test:*",
     "test:cjs": "jest --config ./scripts/jest/config.cjs.js",
     "test:src": "jest --config ./scripts/jest/config.src.js"
   },

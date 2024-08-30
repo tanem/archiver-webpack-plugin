@@ -1,5 +1,12 @@
 # Changelog
 
+## [v10.0.1](https://github.com/tanem/archiver-webpack-plugin/tree/v10.0.1) (2024-08-30)
+[Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v10.0.0...v10.0.1)
+
+#### :house: Internal
+
+- [#1156](https://github.com/tanem/archiver-webpack-plugin/pull/1156) Fix package.json ([@tanem](https://github.com/tanem))
+
 ## [v10.0.0](https://github.com/tanem/archiver-webpack-plugin/tree/v10.0.0) (2024-08-30)
 [Full Changelog](https://github.com/tanem/archiver-webpack-plugin/compare/v9.0.10...v10.0.0)
 

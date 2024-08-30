@@ -13,7 +13,10 @@
   },
   "homepage": "https://github.com/tanem/archiver-webpack-plugin",
   "bugs": "https://github.com/tanem/archiver-webpack-plugin/issues",
-  "repository": "github:tanem/archiver-webpack-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanem/archiver-webpack-plugin.git"
+  },
   "keywords": [
     "archive",
     "archiver",

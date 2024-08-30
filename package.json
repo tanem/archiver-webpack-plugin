@@ -1,6 +1,6 @@
 {
   "name": "@tanem/archiver-webpack-plugin",
-  "version": "9.0.10",
+  "version": "10.0.0",
   "description": "A webpack plugin that generates zip archives.",
   "author": "Tane Morgan (https://github.com/tanem)",
   "main": "dist/index.js",

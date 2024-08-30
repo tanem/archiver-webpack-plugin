@@ -63,7 +63,7 @@ module.exports = {
 
 ## Installation
 
-> ⚠️ This library requires webpack 4 and Node.js >= 16.
+> ⚠️ This library requires webpack 4 and Node.js >= 18.
 
 ```
 $ npm install @tanem/archiver-webpack-plugin --save-dev

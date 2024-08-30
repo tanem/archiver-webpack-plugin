@@ -2,6 +2,16 @@
 
 Details relating to major changes that aren't presently in `CHANGELOG.md`, due to limitations with how that file is being generated.
 
+## v10.0.0
+
+**Added**
+
+- Added Node.js v22 support.
+
+**Removed**
+
+- Dropped Node.js v16 support.
+
 ## v9.0.0
 
 **Removed**

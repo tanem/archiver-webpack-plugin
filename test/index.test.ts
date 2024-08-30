@@ -7,7 +7,6 @@ import yauzl from 'yauzl'
 import { ArchiverWebpackPlugin } from '../src'
 import baseConfig from './fixtures/webpack.config'
 
-// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 const defaultOutputPath = baseConfig.output!.path!
 
 afterEach(async () => await rimraf(defaultOutputPath))

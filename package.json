@@ -49,7 +49,7 @@
     "prettier": "3.8.1",
     "rimraf": "6.1.2",
     "shx": "0.4.0",
-    "tanem-scripts": "7.0.29",
+    "tanem-scripts": "8.0.0",
     "tar": "7.5.6",
     "ts-jest": "29.4.6",
     "typescript": "5.9.3",
